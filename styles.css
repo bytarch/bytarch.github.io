@@ -1,35 +1,40 @@
+/* General styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #000000;
     color: #ffffff;
     line-height: 1.6;
 }
 
+/* Header styles */
 .header {
     padding: 20px 0;
     text-align: center;
-    background-color: #1f1f1f;
+    background-color: #1c1c1c;
     border-bottom: 1px solid #444;
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    color: #e91e63;
+    color: #c0c0c0; /* Silver color */
 }
 
+/* Hero section styles */
 .hero {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 80vh;
     text-align: center;
+    background: linear-gradient(45deg, #1c1c1c, #333333);
+    padding: 20px;
 }
 
 .hero .container {
@@ -38,48 +43,33 @@ body {
 }
 
 .hero h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
-    color: #e91e63;
+    color: #c0c0c0; /* Silver color */
 }
 
 .hero p {
     margin-bottom: 20px;
     font-size: 1.2rem;
+    color: #bbbbbb;
 }
 
-.subscription-form input[type="email"] {
-    padding: 10px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-    width: 70%;
-}
-
-.subscription-form .btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #e91e63;
-    color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.subscription-form .btn:hover {
-    background-color: #d81b60;
-}
-
+/* Footer styles */
 .footer {
     padding: 20px 0;
     text-align: center;
-    background-color: #1f1f1f;
+    background-color: #1c1c1c;
     border-top: 1px solid #444;
 }
 
 .footer p {
     font-size: 0.9rem;
     color: #777;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 2.5rem;
+    }
 }
