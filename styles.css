@@ -33,7 +33,7 @@ body {
     justify-content: center;
     height: 80vh;
     text-align: center;
-    background: linear-gradient(45deg, #1c1c1c, #333333);
+   
     padding: 20px;
 }
 
@@ -58,7 +58,7 @@ body {
 .footer {
     padding: 20px 0;
     text-align: center;
-    background-color: #1c1c1c;
+   
     border-top: 1px solid #444;
 }
 
