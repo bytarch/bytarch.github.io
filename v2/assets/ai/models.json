@@ -1,33 +1,16 @@
 [
+  
   {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Mini",
-    "value": "deminji-1.5-mini",
-    "description": "Deminji 1.5 Mini (Free) - Our fastest model for general use cases. (Free)"
+    "label_part1": "GPT",
+    "label_part2": "4",
+    "value": "byt-gpt-4",
+    "description": "GPT 4 - OpenAI GPT 4 Model"
   },
   {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Gecko",
-    "value": "deminji-1.5-gecko",
-    "description": "Deminji 1.5 Gecko (Free) - Performance and speed for efficiency. (Free)"
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Bylearn",
-    "value": "deminji-1.5-nitro",
-    "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "SQL Coder",
-    "value": "deminji-sql-coder",
-    "description": "Deminji SQL Coder - Our first code assistant, able to generate any SQL query in seconds!"
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Deminji Coder",
-    "value": "deminji-coder",
-    "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
+    "label_part1": "GPT",
+    "label_part2": "4o",
+    "value": "4o",
+    "description": "GPT 4o - OpenAI 4o Model"
   },
   {
     "label_part1": "Art Style",
@@ -76,24 +59,6 @@
     "label_part2": "Dark",
     "value": "img-any-dark",
     "description": "Any Dark - A dark-themed style. Ideal for generating dark-themed imagery."
-  },
-  {
-    "label_part1": "GPT",
-    "label_part2": "4",
-    "value": "byt-gpt-4",
-    "description": "GPT 4 - OpenAI GPT 4 Model"
-  },
-  {
-    "label_part1": "GPT",
-    "label_part2": "4o",
-    "value": "4o",
-    "description": "GPT 4o - OpenAI 4o Model"
-  },
-  {
-    "label_part1": "Black Box",
-    "label_part2": "AI",
-    "value": "black-box-ai",
-    "description": "Black Box AI - BlackBoxAI Preview"
   },
   {
     "label_part1": "Search",
@@ -172,5 +137,34 @@
     "label_part2": "Pro",
     "value": "byt-gemini-1.5-pro",
     "description": "Gemini 1.5 Pro - A powerful model designed for professional use."
+  },{
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Mini",
+    "value": "deminji-1.5-mini",
+    "description": "Deminji 1.5 Mini (Free) - Our fastest model for general use cases. (Free)"
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Gecko",
+    "value": "deminji-1.5-gecko",
+    "description": "Deminji 1.5 Gecko (Free) - Performance and speed for efficiency. (Free)"
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Bylearn",
+    "value": "deminji-1.5-nitro",
+    "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "SQL Coder",
+    "value": "deminji-sql-coder",
+    "description": "Deminji SQL Coder - Our first code assistant, able to generate any SQL query in seconds!"
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Deminji Coder",
+    "value": "deminji-coder",
+    "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
   }
 ]
