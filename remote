@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+// Function to detect mobile devices
+function isMobile() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    const mobileAgents = [
+        'Mobile', 'Android', 'Silk/', 'Kindle', 'BlackBerry', 'Opera Mini', 'Opera Mobi',
+        'iPhone', 'iPod', 'iPad', 'Windows Phone', 'webOS'
+    ];
+
+    for (const agent of mobileAgents) {
+        if (userAgent.includes(agent)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+// Usage example
+document.addEventListener("DOMContentLoaded", function() {
+    if (isMobile()) {
+       
+    } else {
+        // Content for non-mobile users
+        document.body.innerHTML = "<p>Mobile Devices Only</p>";
+    }
+});
+function showInfoAlert() {
+            Swal.fire({
+             
+                html: `
+                    <ul class="list-none p-0">
+                        <li class="flex items-center mb-2"><i class="fa-brands fa-chromecast mr-2"></i> Cast.</li>
+                        <li class="flex items-center mb-2"><i class="fas fa-play mr-2"></i> Plays the video.</li>
+                        <li class="flex items-center mb-2"><i class="fas fa-pause mr-2"></i> Pauses the video.</li>
+                        <li class="flex items-center mb-2"><i class="fas fa-forward mr-2"></i> Fast Forwards in the video.</li>
+                        <li class="flex items-center mb-2"><i class="fas fa-backward mr-2"></i> Rewinds the video.</li>
+                        <li class="flex items-center mb-2"><i class="fas fa-palette mr-2"></i> Sets a theme.</li>
+                        <li class="flex items-center mb-2"><i class="fas fa-adjust mr-2"></i> Sets a random theme.</li>
+                        <li class="flex items-center"><i class="fas fa-power-off mr-2"></i> Exits Cast.</li>
+                    </ul>
+                `,
+               
+                showCloseButton: true,
+                showCancelButton: false,
+                
+                confirmButtonText: 'Go it',
+            });
+        }
+
+        const socket = new WebSocket('wss://blue-lion-79.telebit.io/ws');
+        let pairedDeviceId = "";
+        let currentDeviceId = "";
+
+        socket.onopen = () => {
+            console.log('Connected to the server');
+        };
+
+        document.getElementById('registerDeviceBtn').onclick = () => {
+            const registrationMessage = JSON.stringify({ action: 'register' });
+            socket.send(registrationMessage);
+        };
+
+        document.getElementById('pairButton').onclick = () => {
+            pairedDeviceId = document.getElementById('pairedDeviceIdInput').value.trim();
+            if (!pairedDeviceId) {
+                alert("Please enter a valid Device ID to pair with.");
+                return;
+            } 
+            if (pairedDeviceId === currentDeviceId) {
+                alert("Please enter a device ID that isn't your own");
+                return;
+            }
+
+            const pairRequestMessage = JSON.stringify({
+                action: 'request_pair',
+                paired_device_id: pairedDeviceId,
+                current_device_id: currentDeviceId
+            });
+            socket.send(pairRequestMessage);
+            document.getElementById('messages').innerHTML += `<p>Pairing request sent to device: ${pairedDeviceId}</p>`;
+        };
+
+        socket.onmessage = (event) => {
+            let data;
+            try {
+                data = JSON.parse(event.data);
+            } catch (error) {
+                console.error('Error parsing JSON:', error);
+                document.getElementById('messages').innerHTML += '<p style="color: red;">Received non-JSON message from server.</p>';
+                return;
+            }
+
+            const messagesDiv = document.getElementById('messages');
+            if (data.action === 'device_registered') {
+                currentDeviceId = data.device_id; 
+                document.getElementById('starter').style.display = 'none';
+                document.getElementById('starterv2').style.display = 'block';
+            } else if (data.action === 'pair_request') {
+                messagesDiv.innerHTML += `<p>Pair request from ${data.from_device_id}</p>`;
+                document.getElementById('acceptButton').style.display = 'block';
+                pairedDeviceId = data.from_device_id; 
+                currentDeviceId = data.sent_to;
+            } else if (data.action === 'pair_accepted') {
+                messagesDiv.innerHTML += `<p>Device ${pairedDeviceId} accepted pairing.</p>`;
+                document.getElementById('acceptButton').style.display = 'none';
+                
+                document.getElementById('starterv2').style.display = 'none';
+                document.getElementById('messages').style.display = 'none';
+            }
+        };
+
+        document.getElementById('acceptButton').onclick = () => {
+            const acceptMessage = JSON.stringify({
+                action: 'accept_pair',
+                paired_device_id: pairedDeviceId
+            });
+            socket.send(acceptMessage);
+            document.getElementById('messages').innerHTML += `<p>You accepted pairing with ${pairedDeviceId}.</p>`;
+            document.getElementById('acceptButton').style.display = 'none';
+        };
+
+        function castVideo() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const videoUrl = urlParams.get('videoUrl') || prompt('Please enter the video URL to cast:');
+    const referrer = urlParams.get('referrer') || ''; // Use a default referrer if not provided
+
+    if (videoUrl) {
+        // Format as "videoUrl referrer"
+        const commandValue = `${videoUrl} ${referrer}`;
+        sendCommand('cast', commandValue);
+    } else {
+        alert("No video URL provided.");
+    }
+}
+
+
+
+function sendCommand(command, value) {
+            const commandMessage = JSON.stringify({
+                action: 'command',
+                paired_device_id: pairedDeviceId,
+                command: `${command} ${value}`
+            });
+            socket.send(commandMessage);
+        }
+
+     </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirByte Remote</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <style>
+        .remote-button {
+            width: 80px; /* Set width */
+            height: 80px; /* Set height */
+            font-size: 16px;
+            border-radius: 50%; /* Make it circular */
+            display: flex;
+            align-items: center; /* Center text vertically */
+            justify-content: center; /* Center text horizontally */
+        }
+        .info-button {
+            width: 35px; /* Set width */
+            height: 35px; /* Set height */
+            font-size: 16px;
+            border-radius: 50%; /* Make it circular */
+            display: flex;
+            align-items: center; /* Center text vertically */
+            justify-content: center; /* Center text horizontally */
+        }
+    </style>
+</head>
+<body class="bg-black text-white flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-3xl font-bold mb-6">AirByte Remote</h1>
+    
+    <div class="absolute top-4 right-4">
+        <button id="infoButton" class="bg-gray-500 text-white info-button" onclick="showInfoAlert()">
+            <i class="fas fa-question-circle"></i> <!-- Icon for Info -->
+        </button>
+    </div>
+
+    <div id="starter" class="mb-4">
+        <button id="registerDeviceBtn" class="bg-blue-500 text-white py-2 px-4 rounded">Connect</button>
+    </div>
+    
+    <div id="starterv2" class="mb-4 hidden">
+        <div class="flex flex-col items-center">
+            <input type="text" id="pairedDeviceIdInput" placeholder="Enter AirByte to pair" class="p-2 rounded mb-2 bg-black "/>
+            <button id="pairButton" class="bg-green-500 text-white py-2 px-4 rounded">Pair</button>
+        </div>
+    </div>
+    
+    <button id="acceptButton" class="bg-yellow-500 text-white py-2 px-4 rounded hidden">Accept Pairing</button>
+   
+    <div id="messages" class="mb-4"></div>
+    <div class="flex flex-col items-center">
+        <button class="bg-indigo-500 text-white remote-button" onclick="castVideo()">
+            <i class="fa-brands fa-chromecast"></i> <!-- Icon for Cast -->
+        </button>
+    </div>
+    <br>
+    <div class="grid grid-cols-3 gap-4">
+        <div class="flex flex-col items-center">
+            <button class="bg-blue-500 text-white remote-button" onclick="sendCommand('rewind')">
+                <i class="fas fa-backward"></i> <!-- Icon for Rewind -->
+            </button>
+            <button class="bg-purple-500 text-white remote-button" onclick="sendCommand('color')">
+                <i class="fas fa-adjust"></i> <!-- Icon for Switch/Change Color -->
+            </button>
+        </div>
+        <div class="flex flex-col items-center">
+            <button class="bg-red-500 text-white remote-button" onclick="sendCommand('play')">
+                <i class="fas fa-play"></i> <!-- Icon for Play -->
+            </button>
+            <button class="bg-yellow-500 text-white remote-button" onclick="sendCommand('pause')">
+                <i class="fas fa-pause"></i> <!-- Icon for Pause -->
+            </button>
+        </div>
+        <div class="flex flex-col items-center">
+            <button class="bg-green-500 text-white remote-button" onclick="sendCommand('fastforward')">
+                <i class="fas fa-forward"></i> <!-- Icon for Fast Forward -->
+            </button>
+            <button class="bg-purple-500 text-white remote-button" onclick="sendCommand('color', prompt('Enter theme index (e.g., 1):'))">
+                <i class="fas fa-palette"></i> <!-- Icon for Color -->
+            </button>
+        </div>
+    </div>
+    <br>
+    <div class="flex flex-col items-center">
+        <button class="bg-black text-white remote-button" onclick="sendCommand('exit')">
+            <i class="fas fa-power-off"></i> <!-- Icon for Exit -->
+        </button>
+    </div>
+
+   
+</body>
+</html>
