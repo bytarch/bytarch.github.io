@@ -3,6 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <script>
+        
+
+const devtools = {
+  isOpen: false,
+  orientation: undefined,
+};
+
+const threshold = 170;
+const errorPageURL = '/'; // Specify the URL of the error page
+ // Init config/convo/menu
+
+const emitEvent = (isOpen, orientation) => {
+  window.dispatchEvent(new CustomEvent('devtoolschange', {
+    detail: {
+      isOpen,
+      orientation,
+    },
+  }));
+};
+
+const redirectToErrorPage = () => {
+  window.location.href = errorPageURL;
+};
+
+const closeDevTools = () => {
+  // Close DevTools
+  if (window.Firebug) {
+    window.Firebug.chrome.close();
+  } else {
+    window.close();
+  }
+};
+
+const main = ({ emitEvents = true } = {}) => {
+  const checkDevTools = () => {
+    const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+    const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+    const orientation = widthThreshold ? 'vertical' : 'horizontal';
+
+    if (
+      !(heightThreshold && widthThreshold) &&
+      ((window.Firebug && window.Firebug.chrome && window.Firebug.chrome.isInitialized) ||
+        widthThreshold ||
+        heightThreshold)
+    ) {
+      if ((!devtools.isOpen || devtools.orientation !== orientation) && emitEvents) {
+        emitEvent(true, orientation);
+      }
+
+      devtools.isOpen = true;
+      devtools.orientation = orientation;
+
+      // Redirect to the error page if DevTools are open
+      redirectToErrorPage();
+    } else {
+      if (devtools.isOpen && emitEvents) {
+        emitEvent(false, undefined);
+      }
+
+      devtools.isOpen = false;
+      devtools.orientation = undefined;
+
+      // Check if the current page URL is the error page URL
+      if (window.location.pathname === errorPageURL) {
+        closeDevTools();
+      }
+    }
+  };
+
+  // Check if it's open
+  console.log('Is DevTools open:', devtools.isOpen);
+
+  // Check its orientation, `undefined` if not open
+  console.log('DevTools orientation:', devtools.orientation);
+
+  // Get notified when it's opened/closed or orientation changes
+  window.addEventListener('devtoolschange', (event) => {
+    console.log('Is DevTools open:', event.detail.isOpen);
+    console.log('DevTools orientation:', event.detail.orientation);
+  });
+
+  // Add event listener for resize to continuously check for DevTools changes
+  window.addEventListener('resize', checkDevTools);
+
+  // Initial check for DevTools
+  checkDevTools();
+};
+
+// Call the main function to start the behavior
+main({ emitEvents: true });
 // Function to detect mobile devices
 function isMobile() {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
@@ -25,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
        
     } else {
         // Content for non-mobile users
-        document.body.innerHTML = "<p>Mobile Devices Only</p>";
+     document.body.innerHTML = "<p>Mobile Devices Only</p>";
     }
 });
 
@@ -235,11 +325,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function sendCommand(command, value) {
-            const commandMessage = JSON.stringify({
+    let commandMessage;
+    if(!value){
+        commandMessage = JSON.stringify({
+                action: 'command',
+                paired_device_id: pairedDeviceId,
+                command: `${command}`
+            });
+    }else{
+        commandMessage = JSON.stringify({
                 action: 'command',
                 paired_device_id: pairedDeviceId,
                 command: `${command} ${value}`
             });
+    }
+           
             socket.send(commandMessage);
         }
     </script>
