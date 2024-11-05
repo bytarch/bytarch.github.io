@@ -28,7 +28,102 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.innerHTML = "<p>Mobile Devices Only</p>";
     }
 });
-function showInfoAlert() {
+
+
+     </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirByte Remote</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <style>
+        .remote-button {
+            width: 80px; /* Set width */
+            height: 80px; /* Set height */
+            font-size: 16px;
+            border-radius: 50%; /* Make it circular */
+            display: flex;
+            align-items: center; /* Center text vertically */
+            justify-content: center; /* Center text horizontally */
+        }
+        .info-button {
+            width: 35px; /* Set width */
+            height: 35px; /* Set height */
+            font-size: 16px;
+            border-radius: 50%; /* Make it circular */
+            display: flex;
+            align-items: center; /* Center text vertically */
+            justify-content: center; /* Center text horizontally */
+        }
+    </style>
+</head>
+<body class="bg-black text-white flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-3xl font-bold mb-6">AirByte Remote</h1>
+    
+    <div class="absolute top-4 right-4">
+        <button id="infoButton" class="bg-gray-500 text-white info-button" onclick="showInfoAlert()">
+            <i class="fas fa-question-circle"></i> <!-- Icon for Info -->
+        </button>
+    </div>
+
+    <div id="starter" class="mb-4">
+        <button id="registerDeviceBtn" class="bg-blue-500 text-white py-2 px-4 rounded">Connect</button>
+    </div>
+    
+    <div id="starterv2" class="mb-4 hidden">
+        <div class="flex flex-col items-center">
+            <input type="text" id="pairedDeviceIdInput" placeholder="Enter AirByte to pair" class="p-2 rounded mb-2 bg-black "/>
+            <button id="pairButton" class="bg-green-500 text-white py-2 px-4 rounded">Pair</button>
+        </div>
+    </div>
+    
+    <button id="acceptButton" class="bg-yellow-500 text-white py-2 px-4 rounded hidden">Accept Pairing</button>
+   
+    <div id="messages" class="mb-4"></div>
+    <div class="flex flex-col items-center">
+        <button class="bg-indigo-500 text-white remote-button" onclick="castVideo()">
+            <i class="fa-brands fa-chromecast"></i> <!-- Icon for Cast -->
+        </button>
+    </div>
+    <br>
+    <div class="grid grid-cols-3 gap-4">
+        <div class="flex flex-col items-center">
+            <button class="bg-blue-500 text-white remote-button" onclick="sendCommand('rewind')">
+                <i class="fas fa-backward"></i> <!-- Icon for Rewind -->
+            </button>
+            <button class="bg-purple-500 text-white remote-button" onclick="sendCommand('color')">
+                <i class="fas fa-adjust"></i> <!-- Icon for Switch/Change Color -->
+            </button>
+        </div>
+        <div class="flex flex-col items-center">
+            <button class="bg-red-500 text-white remote-button" onclick="sendCommand('play')">
+                <i class="fas fa-play"></i> <!-- Icon for Play -->
+            </button>
+            <button class="bg-yellow-500 text-white remote-button" onclick="sendCommand('pause')">
+                <i class="fas fa-pause"></i> <!-- Icon for Pause -->
+            </button>
+        </div>
+        <div class="flex flex-col items-center">
+            <button class="bg-green-500 text-white remote-button" onclick="sendCommand('fastforward')">
+                <i class="fas fa-forward"></i> <!-- Icon for Fast Forward -->
+            </button>
+            <button class="bg-purple-500 text-white remote-button" onclick="sendCommand('color', prompt('Enter theme index (e.g., 1):'))">
+                <i class="fas fa-palette"></i> <!-- Icon for Color -->
+            </button>
+        </div>
+    </div>
+    <br>
+    <div class="flex flex-col items-center">
+        <button class="bg-black text-white remote-button" onclick="sendCommand('exit')">
+            <i class="fas fa-power-off"></i> <!-- Icon for Exit -->
+        </button>
+    </div>
+
+    <script>
+       function showInfoAlert() {
             Swal.fire({
              
                 html: `
@@ -147,99 +242,6 @@ function sendCommand(command, value) {
             });
             socket.send(commandMessage);
         }
-
-     </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AirByte Remote</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
-    <style>
-        .remote-button {
-            width: 80px; /* Set width */
-            height: 80px; /* Set height */
-            font-size: 16px;
-            border-radius: 50%; /* Make it circular */
-            display: flex;
-            align-items: center; /* Center text vertically */
-            justify-content: center; /* Center text horizontally */
-        }
-        .info-button {
-            width: 35px; /* Set width */
-            height: 35px; /* Set height */
-            font-size: 16px;
-            border-radius: 50%; /* Make it circular */
-            display: flex;
-            align-items: center; /* Center text vertically */
-            justify-content: center; /* Center text horizontally */
-        }
-    </style>
-</head>
-<body class="bg-black text-white flex flex-col items-center justify-center min-h-screen">
-    <h1 class="text-3xl font-bold mb-6">AirByte Remote</h1>
-    
-    <div class="absolute top-4 right-4">
-        <button id="infoButton" class="bg-gray-500 text-white info-button" onclick="showInfoAlert()">
-            <i class="fas fa-question-circle"></i> <!-- Icon for Info -->
-        </button>
-    </div>
-
-    <div id="starter" class="mb-4">
-        <button id="registerDeviceBtn" class="bg-blue-500 text-white py-2 px-4 rounded">Connect</button>
-    </div>
-    
-    <div id="starterv2" class="mb-4 hidden">
-        <div class="flex flex-col items-center">
-            <input type="text" id="pairedDeviceIdInput" placeholder="Enter AirByte to pair" class="p-2 rounded mb-2 bg-black "/>
-            <button id="pairButton" class="bg-green-500 text-white py-2 px-4 rounded">Pair</button>
-        </div>
-    </div>
-    
-    <button id="acceptButton" class="bg-yellow-500 text-white py-2 px-4 rounded hidden">Accept Pairing</button>
-   
-    <div id="messages" class="mb-4"></div>
-    <div class="flex flex-col items-center">
-        <button class="bg-indigo-500 text-white remote-button" onclick="castVideo()">
-            <i class="fa-brands fa-chromecast"></i> <!-- Icon for Cast -->
-        </button>
-    </div>
-    <br>
-    <div class="grid grid-cols-3 gap-4">
-        <div class="flex flex-col items-center">
-            <button class="bg-blue-500 text-white remote-button" onclick="sendCommand('rewind')">
-                <i class="fas fa-backward"></i> <!-- Icon for Rewind -->
-            </button>
-            <button class="bg-purple-500 text-white remote-button" onclick="sendCommand('color')">
-                <i class="fas fa-adjust"></i> <!-- Icon for Switch/Change Color -->
-            </button>
-        </div>
-        <div class="flex flex-col items-center">
-            <button class="bg-red-500 text-white remote-button" onclick="sendCommand('play')">
-                <i class="fas fa-play"></i> <!-- Icon for Play -->
-            </button>
-            <button class="bg-yellow-500 text-white remote-button" onclick="sendCommand('pause')">
-                <i class="fas fa-pause"></i> <!-- Icon for Pause -->
-            </button>
-        </div>
-        <div class="flex flex-col items-center">
-            <button class="bg-green-500 text-white remote-button" onclick="sendCommand('fastforward')">
-                <i class="fas fa-forward"></i> <!-- Icon for Fast Forward -->
-            </button>
-            <button class="bg-purple-500 text-white remote-button" onclick="sendCommand('color', prompt('Enter theme index (e.g., 1):'))">
-                <i class="fas fa-palette"></i> <!-- Icon for Color -->
-            </button>
-        </div>
-    </div>
-    <br>
-    <div class="flex flex-col items-center">
-        <button class="bg-black text-white remote-button" onclick="sendCommand('exit')">
-            <i class="fas fa-power-off"></i> <!-- Icon for Exit -->
-        </button>
-    </div>
-
-   
+    </script>
 </body>
 </html>
