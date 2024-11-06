@@ -36,48 +36,6 @@
     "description": "Flux Realism - Artistic style focusing on realistic representation. Suitable for generating realistic images."
   },
   {
-    "label_part1": "Art Style",
-    "label_part2": "Anime",
-    "value": "img-flux-anime",
-    "description": "Flux Anime - Anime-inspired artistic style. Ideal for generating anime-style images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "",
-    "value": "img-flux",
-    "description": "Flux - General Flux style. Can be used for diverse image generation."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "3D",
-    "value": "img-flux-3d",
-    "description": "Flux 3D - Three-dimensional artistic representation. Great for generating 3D images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "Disney",
-    "value": "img-flux-disney",
-    "description": "Flux Disney - Disney-inspired artistic style. Perfect for creating whimsical Disney-style images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "Pixel",
-    "value": "img-flux-pixel",
-    "description": "Flux Pixel - Pixel art style. Excellent for generating pixelated images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "4O",
-    "value": "img-flux-4o",
-    "description": "Flux 4O - A specific Flux style. Useful for generating images with a unique 4O flair."
-  },
-  {
-    "label_part1": "Theme",
-    "label_part2": "Dark",
-    "value": "img-any-dark",
-    "description": "Any Dark - A dark-themed style. Ideal for generating dark-themed imagery."
-  },
-  {
     "label_part1": "GPT",
     "label_part2": "4",
     "value": "byt-gpt-4",
@@ -160,6 +118,48 @@
     "label_part2": "4o",
     "value": "byt-gpt-4o",
     "description": "GPT 4o - An advanced version of the 4o model."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "Anime",
+    "value": "img-flux-anime",
+    "description": "Flux Anime - Anime-inspired artistic style. Ideal for generating anime-style images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "",
+    "value": "img-flux",
+    "description": "Flux - General Flux style. Can be used for diverse image generation."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "3D",
+    "value": "img-flux-3d",
+    "description": "Flux 3D - Three-dimensional artistic representation. Great for generating 3D images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "Disney",
+    "value": "img-flux-disney",
+    "description": "Flux Disney - Disney-inspired artistic style. Perfect for creating whimsical Disney-style images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "Pixel",
+    "value": "img-flux-pixel",
+    "description": "Flux Pixel - Pixel art style. Excellent for generating pixelated images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "4O",
+    "value": "img-flux-4o",
+    "description": "Flux 4O - A specific Flux style. Useful for generating images with a unique 4O flair."
+  },
+  {
+    "label_part1": "Theme",
+    "label_part2": "Dark",
+    "value": "img-any-dark",
+    "description": "Any Dark - A dark-themed style. Ideal for generating dark-themed imagery."
   },
   {
     "label_part1": "Gemini 1.5",
