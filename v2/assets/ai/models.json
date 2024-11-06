@@ -1,5 +1,34 @@
 [
-  
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Mini",
+    "value": "deminji-1.5-mini",
+    "description": "Deminji 1.5 Mini (Free) - Our fastest model for general use cases. (Free)"
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Gecko",
+    "value": "deminji-1.5-gecko",
+    "description": "Deminji 1.5 Gecko (Free) - Performance and speed for efficiency. (Free)"
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Bylearn",
+    "value": "deminji-1.5-nitro",
+    "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "SQL Coder",
+    "value": "deminji-sql-coder",
+    "description": "Deminji SQL Coder - Our first code assistant, able to generate any SQL query in seconds!"
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Deminji Coder",
+    "value": "deminji-coder",
+    "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
+  }
   {
     "label_part1": "GPT",
     "label_part2": "4",
@@ -12,54 +41,7 @@
     "value": "4o",
     "description": "GPT 4o - OpenAI 4o Model"
   },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "Realism",
-    "value": "img-flux-realism",
-    "description": "Flux Realism - Artistic style focusing on realistic representation. Suitable for generating realistic images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "Anime",
-    "value": "img-flux-anime",
-    "description": "Flux Anime - Anime-inspired artistic style. Ideal for generating anime-style images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "",
-    "value": "img-flux",
-    "description": "Flux - General Flux style. Can be used for diverse image generation."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "3D",
-    "value": "img-flux-3d",
-    "description": "Flux 3D - Three-dimensional artistic representation. Great for generating 3D images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "Disney",
-    "value": "img-flux-disney",
-    "description": "Flux Disney - Disney-inspired artistic style. Perfect for creating whimsical Disney-style images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "Pixel",
-    "value": "img-flux-pixel",
-    "description": "Flux Pixel - Pixel art style. Excellent for generating pixelated images."
-  },
-  {
-    "label_part1": "Art Style",
-    "label_part2": "4O",
-    "value": "img-flux-4o",
-    "description": "Flux 4O - A specific Flux style. Useful for generating images with a unique 4O flair."
-  },
-  {
-    "label_part1": "Theme",
-    "label_part2": "Dark",
-    "value": "img-any-dark",
-    "description": "Any Dark - A dark-themed style. Ideal for generating dark-themed imagery."
-  },
+  
   {
     "label_part1": "Search",
     "label_part2": "GPT",
@@ -113,6 +95,53 @@
     "label_part2": "Turbo (0125)",
     "value": "byt-gpt-3.5-turbo-0125",
     "description": "GPT 3.5 Turbo (0125) - A fast and efficient version of GPT-3.5."
+  },{
+    "label_part1": "Art Style",
+    "label_part2": "Realism",
+    "value": "img-flux-realism",
+    "description": "Flux Realism - Artistic style focusing on realistic representation. Suitable for generating realistic images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "Anime",
+    "value": "img-flux-anime",
+    "description": "Flux Anime - Anime-inspired artistic style. Ideal for generating anime-style images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "",
+    "value": "img-flux",
+    "description": "Flux - General Flux style. Can be used for diverse image generation."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "3D",
+    "value": "img-flux-3d",
+    "description": "Flux 3D - Three-dimensional artistic representation. Great for generating 3D images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "Disney",
+    "value": "img-flux-disney",
+    "description": "Flux Disney - Disney-inspired artistic style. Perfect for creating whimsical Disney-style images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "Pixel",
+    "value": "img-flux-pixel",
+    "description": "Flux Pixel - Pixel art style. Excellent for generating pixelated images."
+  },
+  {
+    "label_part1": "Art Style",
+    "label_part2": "4O",
+    "value": "img-flux-4o",
+    "description": "Flux 4O - A specific Flux style. Useful for generating images with a unique 4O flair."
+  },
+  {
+    "label_part1": "Theme",
+    "label_part2": "Dark",
+    "value": "img-any-dark",
+    "description": "Any Dark - A dark-themed style. Ideal for generating dark-themed imagery."
   },
   {
     "label_part1": "GPT-3.5",
@@ -137,34 +166,5 @@
     "label_part2": "Pro",
     "value": "byt-gemini-1.5-pro",
     "description": "Gemini 1.5 Pro - A powerful model designed for professional use."
-  },{
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Mini",
-    "value": "deminji-1.5-mini",
-    "description": "Deminji 1.5 Mini (Free) - Our fastest model for general use cases. (Free)"
   },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Gecko",
-    "value": "deminji-1.5-gecko",
-    "description": "Deminji 1.5 Gecko (Free) - Performance and speed for efficiency. (Free)"
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Bylearn",
-    "value": "deminji-1.5-nitro",
-    "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "SQL Coder",
-    "value": "deminji-sql-coder",
-    "description": "Deminji SQL Coder - Our first code assistant, able to generate any SQL query in seconds!"
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Deminji Coder",
-    "value": "deminji-coder",
-    "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
-  }
 ]
