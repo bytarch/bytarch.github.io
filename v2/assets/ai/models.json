@@ -30,6 +30,13 @@
     "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
   },
   {
+    "label_part1": "Art Style",
+    "label_part2": "Realism",
+    "value": "img-flux-realism",
+    "description": "Flux Realism - Artistic style focusing on realistic representation. Suitable for generating realistic images."
+  },
+
+  {
     "label_part1": "GPT",
     "label_part2": "4",
     "value": "byt-gpt-4",
@@ -41,7 +48,12 @@
     "value": "4o",
     "description": "GPT 4o - OpenAI 4o Model"
   },
-  
+  {
+    "label_part1": "Black Box",
+    "label_part2": "AI",
+    "value": "black-box-ai",
+    "description": "Black Box AI - BlackBoxAI Preview"
+  },
   {
     "label_part1": "Search",
     "label_part2": "GPT",
@@ -95,13 +107,19 @@
     "label_part2": "Turbo (0125)",
     "value": "byt-gpt-3.5-turbo-0125",
     "description": "GPT 3.5 Turbo (0125) - A fast and efficient version of GPT-3.5."
-  },{
-    "label_part1": "Art Style",
-    "label_part2": "Realism",
-    "value": "img-flux-realism",
-    "description": "Flux Realism - Artistic style focusing on realistic representation. Suitable for generating realistic images."
   },
   {
+    "label_part1": "GPT-3.5",
+    "label_part2": "Turbo (1106)",
+    "value": "byt-gpt-3.5-turbo-1106",
+    "description": "GPT 3.5 Turbo (1106) - A refined model for improved performance."
+  },
+  {
+    "label_part1": "GPT",
+    "label_part2": "4o",
+    "value": "byt-gpt-4o",
+    "description": "GPT 4o - An advanced version of the 4o model."
+  },  {
     "label_part1": "Art Style",
     "label_part2": "Anime",
     "value": "img-flux-anime",
@@ -142,18 +160,6 @@
     "label_part2": "Dark",
     "value": "img-any-dark",
     "description": "Any Dark - A dark-themed style. Ideal for generating dark-themed imagery."
-  },
-  {
-    "label_part1": "GPT-3.5",
-    "label_part2": "Turbo (1106)",
-    "value": "byt-gpt-3.5-turbo-1106",
-    "description": "GPT 3.5 Turbo (1106) - A refined model for improved performance."
-  },
-  {
-    "label_part1": "GPT",
-    "label_part2": "4o",
-    "value": "byt-gpt-4o",
-    "description": "GPT 4o - An advanced version of the 4o model."
   },
   {
     "label_part1": "Gemini 1.5",
