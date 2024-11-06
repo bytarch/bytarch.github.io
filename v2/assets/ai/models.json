@@ -28,7 +28,7 @@
     "label_part2": "Deminji Coder",
     "value": "deminji-coder",
     "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
-  }
+  },
   {
     "label_part1": "GPT",
     "label_part2": "4",
@@ -166,5 +166,5 @@
     "label_part2": "Pro",
     "value": "byt-gemini-1.5-pro",
     "description": "Gemini 1.5 Pro - A powerful model designed for professional use."
-  },
+  }
 ]
