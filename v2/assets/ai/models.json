@@ -35,7 +35,6 @@
     "value": "img-flux-realism",
     "description": "Flux Realism - Artistic style focusing on realistic representation. Suitable for generating realistic images."
   },
-
   {
     "label_part1": "GPT",
     "label_part2": "4",
