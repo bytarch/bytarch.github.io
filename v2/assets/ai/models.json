@@ -119,7 +119,8 @@
     "label_part2": "4o",
     "value": "byt-gpt-4o",
     "description": "GPT 4o - An advanced version of the 4o model."
-  },  {
+  },
+  {
     "label_part1": "Art Style",
     "label_part2": "Anime",
     "value": "img-flux-anime",
