@@ -18,12 +18,6 @@
     "description": "The best image generation Model"
   },
   {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Deminji Coder",
-    "value": "deminji-coder",
-    "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
-  },
-  {
     "label_part1": "ChatGPT",
     "label_part2": "4o Premium",
     "value": "bytarch::gpt-4o",
@@ -207,5 +201,11 @@
     "label_part2": "SQL Coder",
     "value": "deminji-sql-coder",
     "description": "Deminji SQL Coder - Our first code assistant, able to generate any SQL query in seconds!"
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Deminji Coder",
+    "value": "deminji-coder",
+    "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
   }
 ]
