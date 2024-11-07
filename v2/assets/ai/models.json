@@ -1,15 +1,27 @@
 [
   {
+    "label_part1": "Source",
+    "label_part2": "AI",
+    "value": "free::sourceai",
+    "description": "Great for everyday task 🐱‍🏍"
+  },
+  {
+    "label_part1": "Source",
+    "label_part2": "AI Uncensored",
+    "value": "closeai::sourceai-1.5-any-uncensored",
+    "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
+  },
+  {
     "label_part1": "Deminji-1.5",
     "label_part2": "Mini",
     "value": "deminji-1.5-mini",
-    "description": "Deminji 1.5 Mini (Free) - Our fastest model for general use cases. (Free)"
+    "description": "Deminji 1.5 Mini (Freemium) - Our fastest model for general use cases."
   },
   {
     "label_part1": "Deminji-1.5",
     "label_part2": "Gecko",
     "value": "deminji-1.5-gecko",
-    "description": "Deminji 1.5 Gecko (Free) - Performance and speed for efficiency. (Free)"
+    "description": "Deminji 1.5 Gecko (Freemium) - Performance and speed for efficiency."
   },
   {
     "label_part1": "Deminji-1.5",
@@ -24,10 +36,22 @@
     "description": "Deminji SQL Coder - Our first code assistant, able to generate any SQL query in seconds!"
   },
   {
+    "label_part1": "Get Better",
+    "label_part2": "Pro",
+    "value": "img-Flux-1.1-Pro",
+    "description": "The best image generation Model"
+  },
+  {
     "label_part1": "Deminji-1.5",
     "label_part2": "Deminji Coder",
     "value": "deminji-coder",
     "description": "Deminji Coder - Our second generalized code assistant, able to generate any code in seconds!"
+  },
+  {
+    "label_part1": "ChatGPT",
+    "label_part2": "4o Premium",
+    "value": "bytarch::gpt-4o",
+    "description": "ChatGPT 4o Premium - OpenAI 4o Model"
   },
   {
     "label_part1": "Art Style",
@@ -36,10 +60,22 @@
     "description": "Flux Realism - Artistic style focusing on realistic representation. Suitable for generating realistic images."
   },
   {
+    "label_part1": "SQL Coder",
+    "label_part2": "7b 2",
+    "value": "closeai::sqlcoder-7b-2",
+    "description": "A Open Source SQL Coder Model."
+  },
+  {
     "label_part1": "GPT",
     "label_part2": "4",
     "value": "byt-gpt-4",
     "description": "GPT 4 - OpenAI GPT 4 Model"
+  },
+  {
+    "label_part1": "ChatGPT",
+    "label_part2": "3.5",
+    "value": "openai::gpt-3.5",
+    "description": "ChatGPT 3.5 - OpenAI GPT 3 Model"
   },
   {
     "label_part1": "GPT",
