@@ -12,18 +12,6 @@
     "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
   },
   {
-    "label_part1": "Deminji-3.5",
-    "label_part2": "Bylearn",
-    "value": "bytarch::deminji-3.5-scorpio",
-    "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "SQL Coder",
-    "value": "deminji-sql-coder",
-    "description": "Deminji SQL Coder - Our first code assistant, able to generate any SQL query in seconds!"
-  },
-  {
     "label_part1": "Get Better",
     "label_part2": "Pro",
     "value": "img-Flux-1.1-Pro",
@@ -196,5 +184,28 @@
     "label_part2": "Pro",
     "value": "byt-gemini-1.5-pro",
     "description": "Gemini 1.5 Pro - A powerful model designed for professional use."
+  }, {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Mini",
+    "value": "deminji-1.5-mini",
+    "description": "Deminji 1.5 Mini (Freemium) - Our fastest model for general use cases."
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Gecko",
+    "value": "deminji-1.5-gecko",
+    "description": "Deminji 1.5 Gecko (Freemium) - Performance and speed for efficiency."
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "Bylearn",
+    "value": "deminji-1.5-nitro",
+    "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
+  },
+  {
+    "label_part1": "Deminji-1.5",
+    "label_part2": "SQL Coder",
+    "value": "deminji-sql-coder",
+    "description": "Deminji SQL Coder - Our first code assistant, able to generate any SQL query in seconds!"
   }
 ]
