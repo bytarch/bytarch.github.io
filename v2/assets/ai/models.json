@@ -12,21 +12,9 @@
     "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
   },
   {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Mini",
-    "value": "deminji-1.5-mini",
-    "description": "Deminji 1.5 Mini (Freemium) - Our fastest model for general use cases."
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Gecko",
-    "value": "deminji-1.5-gecko",
-    "description": "Deminji 1.5 Gecko (Freemium) - Performance and speed for efficiency."
-  },
-  {
-    "label_part1": "Deminji-1.5",
+    "label_part1": "Deminji-3.5",
     "label_part2": "Bylearn",
-    "value": "deminji-1.5-nitro",
+    "value": "bytarch::deminji-3.5-scorpio",
     "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
   },
   {
