@@ -2,14 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Refresh" content="0; url=https://github.com/bytarch/newgen-client/releases/download/base/newgenclient.exe">
     <title>Redirecting...</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script>
+        // Function to detect mobile devices
+        function isMobile() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            const mobileAgents = [
+                'Mobile', 'Android', 'Silk/', 'Kindle', 'BlackBerry', 'Opera Mini', 'Opera Mobi',
+                'iPhone', 'iPod', 'iPad', 'Windows Phone', 'webOS'
+            ];
+
+            for (const agent of mobileAgents) {
+                if (userAgent.includes(agent)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // Usage example
+        document.addEventListener("DOMContentLoaded", function() {
+            if (isMobile()) {
+                // Redirect for mobile users to .apk file
+                window.location.href = "https://github.com/bytarch/newgen-client/releases/download/base/newgen.apk";
+            } else {
+                // Redirect for desktop users to .exe file
+                window.location.href = "https://github.com/bytarch/newgen-client/releases/download/base/newgenclient.exe";
+            }
+
+            // Dynamically show the correct link for download
+            const downloadContainer = document.getElementById('download-links');
+            if (isMobile()) {
+                downloadContainer.innerHTML = '<p><a href="https://github.com/bytarch/newgen-client/releases/download/base/newgen.apk" class="text-blue-500 hover:underline">Download for Mobile</a></p>';
+            } else {
+                downloadContainer.innerHTML = '<p><a href="https://github.com/bytarch/newgen-client/releases/download/base/newgenclient.exe" class="text-blue-500 hover:underline">Download for Desktop</a></p>';
+            }
+        });
+    </script>
 </head>
 <body class="flex items-center justify-center min-h-screen bg-gray-100">
     <div class="text-center">
         <h1 class="text-2xl font-bold mb-4">Redirecting...</h1>
-        <p class="mb-4">If you are not redirected automatically, follow this <a href="https://github.com/bytarch/newgen-client/releases/download/base/newgenclient.exe" class="text-blue-500 hover:underline">link</a>.</p>
+        <p class="mb-4">If you are not redirected automatically, follow the appropriate link below:</p>
+        <div id="download-links" class="mb-4">
+            <!-- The proper link will be inserted here based on device type -->
+        </div>
     </div>
 </body>
 </html>
