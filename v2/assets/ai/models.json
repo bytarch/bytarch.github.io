@@ -53,7 +53,7 @@
     "value": "closeai::sqlcoder-7b-2",
     "description": "A Open Source SQL Coder Model."
   },
-    {
+  {
     "label_part1": "Tiny",
     "label_part2": "Llama",
     "value": "tinyllama-1.1b-chat",
