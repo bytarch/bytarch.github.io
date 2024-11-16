@@ -6,10 +6,10 @@
     "description": "Great for everyday task 🐱‍🏍"
   },
   {
-    "label_part1": "Source",
-    "label_part2": "AI Uncensored",
-    "value": "closeai::sourceai-1.5-any-uncensored",
-    "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
+    "label_part1": "deepseek",
+    "label_part2": "coder",
+    "value": "closeai::deepseek-coder-6.7b-instruct",
+    "description": "deepseek coder"
   },
   {
     "label_part1": "Deminji-1.5",
