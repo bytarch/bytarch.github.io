@@ -30,12 +30,6 @@
     "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
   },
   {
-    "label_part1": "Get Better",
-    "label_part2": "Pro",
-    "value": "img-Flux-1.1-Pro",
-    "description": "The best image generation Model"
-  },
-  {
     "label_part1": "Deminji-1.5",
     "label_part2": "Deminji Coder",
     "value": "deminji-coder",
@@ -59,11 +53,17 @@
     "value": "closeai::sqlcoder-7b-2",
     "description": "A Open Source SQL Coder Model."
   },
+    {
+    "label_part1": "Tiny",
+    "label_part2": "Llama",
+    "value": "tinyllama-1.1b-chat",
+    "description": "TinyLlama - used for sentence completion and other small task"
+  },
   {
-    "label_part1": "GPT",
-    "label_part2": "4",
-    "value": "byt-gpt-4",
-    "description": "GPT 4 - OpenAI GPT 4 Model"
+    "label_part1": "Llama",
+    "label_part2": "3.1",
+    "value": "closeai::llama-3.1-70b-turbo",
+    "description": "Llama 3.1 - Meta Model"
   },
   {
     "label_part1": "ChatGPT",
@@ -72,81 +72,21 @@
     "description": "ChatGPT 3.5 - OpenAI GPT 3 Model"
   },
   {
-    "label_part1": "GPT",
-    "label_part2": "4o",
-    "value": "4o",
-    "description": "GPT 4o - OpenAI 4o Model"
-  },
-  {
-    "label_part1": "Black Box",
-    "label_part2": "AI",
-    "value": "black-box-ai",
-    "description": "Black Box AI - BlackBoxAI Preview"
-  },
-  {
-    "label_part1": "Search",
-    "label_part2": "GPT",
-    "value": "gpt-4-turbo",
-    "description": "Search GPT- An OpenAI GPT-4-Turbo based Model ( Internet Access & 'Chat Memory' Disabled )"
-  },
-  {
-    "label_part1": "GPT",
-    "label_part2": "3.5 Turbo",
-    "value": "byt-gpt-3.5-turbo",
-    "description": "Chat GPT - OpenAI CHATGPT Model"
-  },
-  {
-    "label_part1": "Claude",
-    "label_part2": "3 Opus",
-    "value": "byt-claude-3-opus-20240229",
-    "description": "Claude 3 Opus - Our most intelligent model, offering best-in-market performance on highly complex tasks."
-  },
-  {
-    "label_part1": "Claude",
-    "label_part2": "3 Sonnet",
-    "value": "byt-claude-3-sonnet-20240229",
-    "description": "Claude 3 Sonnet - Strikes the ideal balance between intelligence and speed, particularly for enterprise workloads."
-  },
-  {
-    "label_part1": "Claude",
-    "label_part2": "3 Haiku",
-    "value": "byt-claude-3-haiku-20240307",
-    "description": "Claude 3 Haiku - Our fastest, most compact model for near-instant responsiveness."
-  },
-  {
-    "label_part1": "ChatGPT",
-    "label_part2": "4o Latest",
-    "value": "byt-chatgpt-4o-latest",
-    "description": "ChatGPT 4o Latest - The latest version of ChatGPT with improved features."
-  },
-  {
-    "label_part1": "GPT-4o",
-    "label_part2": "Mini (2024-07-18)",
-    "value": "byt-gpt-4o-mini-2024-07-18",
-    "description": "GPT 4o Mini (2024-07-18) - A lightweight version optimized for speed."
-  },
-  {
     "label_part1": "GPT-4o",
     "label_part2": "Mini",
-    "value": "byt-gpt-4o-mini",
-    "description": "GPT 4o Mini - A compact version designed for everyday use."
+    "value": "closeai::gpt-4o-mini",
+    "description": "ChatGPT 4o Latest - The latest version of ChatGPT with improved features."
   },
   {
     "label_part1": "GPT-3.5",
     "label_part2": "Turbo (0125)",
-    "value": "byt-gpt-3.5-turbo-0125",
+    "value": "closeai::gpt-4-turbo",
     "description": "GPT 3.5 Turbo (0125) - A fast and efficient version of GPT-3.5."
-  },
-  {
-    "label_part1": "GPT-3.5",
-    "label_part2": "Turbo (1106)",
-    "value": "byt-gpt-3.5-turbo-1106",
-    "description": "GPT 3.5 Turbo (1106) - A refined model for improved performance."
   },
   {
     "label_part1": "GPT",
     "label_part2": "4o",
-    "value": "byt-gpt-4o",
+    "value": "closeai::gpt-4o",
     "description": "GPT 4o - An advanced version of the 4o model."
   },
   {
@@ -191,16 +131,5 @@
     "value": "img-any-dark",
     "description": "Any Dark - A dark-themed style. Ideal for generating dark-themed imagery."
   },
-  {
-    "label_part1": "Gemini 1.5",
-    "label_part2": "Flash",
-    "value": "byt-gemini-1.5-flash",
-    "description": "Gemini 1.5 Flash - A quick-response model for fast tasks."
-  },
-  {
-    "label_part1": "Gemini 1.5",
-    "label_part2": "Pro",
-    "value": "byt-gemini-1.5-pro",
-    "description": "Gemini 1.5 Pro - A powerful model designed for professional use."
-  }
+  
 ]
