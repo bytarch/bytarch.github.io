@@ -6,6 +6,12 @@
     "description": "Great for everyday task 🐱‍🏍"
   },
   {
+    "label_part1": "Source",
+    "label_part2": "AI Uncensored",
+    "value": "closeai::sourceai-1.5-any-uncensored",
+    "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
+  },
+  {
     "label_part1": "deepseek",
     "label_part2": "coder",
     "value": "closeai::deepseek-coder-6.7b-instruct",
@@ -28,6 +34,12 @@
     "label_part2": "Bylearn",
     "value": "bytarch::deminji-scorpio",
     "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
+  },
+   {
+    "label_part1": "Get Better",
+    "label_part2": "Pro",
+    "value": "img-Flux-1.1-Pro",
+    "description": "The best image generation Model"
   },
   {
     "label_part1": "Deminji-1.5",
