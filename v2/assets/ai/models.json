@@ -12,12 +12,6 @@
     "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
   },
   {
-    "label_part1": "deepseek",
-    "label_part2": "coder",
-    "value": "closeai::deepseek-coder-6.7b-instruct",
-    "description": "deepseek coder"
-  },
-  {
     "label_part1": "Deminji-1.5",
     "label_part2": "Mini",
     "value": "bytarch::deminji-1.5-mini",
@@ -34,6 +28,30 @@
     "label_part2": "Bylearn",
     "value": "bytarch::deminji-scorpio",
     "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
+  },
+   {
+    "label_part1": "Claude",
+    "label_part2": "3.5 Sonnet",
+    "value": "bytarch::claude-sonnet-3.5",
+    "description": "Claude 3.5 Sonnet is a powerful language model that sets new benchmarks in reasoning, knowledge, and coding proficiency."
+  },
+    {
+    "label_part1": "Gemini",
+    "label_part2": "Pro",
+    "value": "bytarch::gemini-pro",
+    "description": "A new generation of AI model that can understand and operate across different types of information."
+  },
+  {
+    "label_part1": "Liquid",
+    "label_part2": "AI",
+    "value": "closeai::lfm-40b-moe",
+    "description": "The goal at Liquid is to build the most capable AI systems to solve problems at every scale."
+  },
+  {
+    "label_part1": "Deepseek",
+    "label_part2": "Coder",
+    "value": "closeai::deepseek-coder-6.7b-instruct",
+    "description": "deep seek coder"
   },
    {
     "label_part1": "Get Better",
