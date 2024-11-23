@@ -32,7 +32,7 @@
    {
     "label_part1": "Claude",
     "label_part2": "3.5 Sonnet",
-    "value": "bytarch::claude-sonnet-3.5",
+    "value": "bytarch::claude-3.5-sonnet",
     "description": "Claude 3.5 Sonnet is a powerful language model that sets new benchmarks in reasoning, knowledge, and coding proficiency."
   },
     {
