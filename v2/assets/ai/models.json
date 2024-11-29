@@ -97,13 +97,13 @@
   },
   {
     "label_part1": "Llama",
-    "label_part2": "3.1",
+    "label_part2": "3.1 70b",
     "value": "closeai::llama-3.1-70b-turbo",
     "description": "Llama 3.1 - Meta Model"
   },
   {
     "label_part1": "ChatGPT",
-    "label_part2": "3.5",
+    "label_part2": "3.5 Turbo",
     "value": "lxus::gpt-3.5-turbo",
     "description": "ChatGPT 3.5 - OpenAI GPT 3.5 Turbo Model"
   },
