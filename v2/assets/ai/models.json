@@ -15,13 +15,13 @@
     "label_part1": "Deminji-1.5",
     "label_part2": "Mini",
     "value": "bytarch::deminji-1.5-mini",
-    "description": "Deminji 1.5 Mini (Freemium) - Our fastest model for general use cases."
+    "description": "Deminji 1.5 Mini  - Our fastest model for general use cases."
   },
   {
     "label_part1": "Deminji-1.5",
     "label_part2": "Gecko",
     "value": "bytarch::deminji-1.5-gecko",
-    "description": "Deminji 1.5 Gecko (Freemium) - Performance and speed for efficiency."
+    "description": "Deminji 1.5 Gecko  - Performance and speed for efficiency."
   },
   {
     "label_part1": "Deminji-1.5",
