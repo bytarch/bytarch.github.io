@@ -11,12 +11,6 @@
     "value": "bytarch::deminji-scorpio",
     "description": "Deminji 1.5 Scorpio - The most powerful model for complex computations."
   },
-   {
-    "label_part1": "ChatGPT",
-    "label_part2": "o1",
-    "value": "closeai::o1-mini",
-    "description": "ChatGPT o1 Model"
-  },
   {
     "label_part1": "ChatGPT",
     "label_part2": "4o Mini",
@@ -53,6 +47,12 @@
     "value": "closeai::gpt-4o-mini",
     "description": "ChatGPT 4o Latest - The latest version of ChatGPT with improved features."
   },
+   {
+    "label_part1": "ChatGPT",
+    "label_part2": "o1",
+    "value": "closeai::o1-mini",
+    "description": "ChatGPT o1 Model"
+  },
   {
     "label_part1": "Liquid",
     "label_part2": "AI",
@@ -64,6 +64,12 @@
     "label_part2": "Coder",
     "value": "closeai::deepseek-coder-6.7b-instruct",
     "description": "deep seek coder"
+  },
+   {
+    "label_part1": "Llama 3.3",
+    "label_part2": "70b",
+    "value": "genesis::meta/llama-3.3-70b-instruct-fp8-fast",
+    "description": "Meta Latest AI Model"
   },
    {
     "label_part1": "Stable Diffusion",
