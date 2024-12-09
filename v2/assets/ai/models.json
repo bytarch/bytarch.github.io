@@ -3,31 +3,31 @@
     "label_part1": "Source",
     "label_part2": "AI",
     "value": "free::sourceai",
-    "description": "Great for everyday task 🐱‍🏍"
-  },
-  {
-    "label_part1": "Source",
-    "label_part2": "AI Uncensored",
-    "value": "closeai::sourceai-1.5-any-uncensored",
-    "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Mini",
-    "value": "bytarch::deminji-1.5-mini",
-    "description": "Deminji 1.5 Mini  - Our fastest model for general use cases."
-  },
-  {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Gecko",
-    "value": "bytarch::deminji-1.5-gecko",
-    "description": "Deminji 1.5 Gecko  - Performance and speed for efficiency."
+    "description": "Free & Great for everyday task 🐱‍🏍"
   },
   {
     "label_part1": "Deminji-1.5",
     "label_part2": "Bylearn",
     "value": "bytarch::deminji-scorpio",
-    "description": "Deminji 1.5 Nitro - The most powerful model for complex computations."
+    "description": "Deminji 1.5 Scorpio - The most powerful model for complex computations."
+  },
+   {
+    "label_part1": "ChatGPT",
+    "label_part2": "o1",
+    "value": "closeai::o1-mini",
+    "description": "ChatGPT o1 Model"
+  },
+  {
+    "label_part1": "ChatGPT",
+    "label_part2": "4o Mini",
+    "value": "nxus::gpt-4o-mini",
+    "description": "ChatGPT 4o Premium - OpenAI 4o Model"
+  },
+  {
+    "label_part1": "ChatGPT",
+    "label_part2": "4o",
+    "value": "closeai::gpt-4o",
+    "description": "GPT 4o - An advanced version of the 4o model."
   },
    {
     "label_part1": "Claude",
@@ -35,11 +35,23 @@
     "value": "bytarch::claude-3.5-sonnet",
     "description": "Claude 3.5 Sonnet is a powerful language model that sets new benchmarks in reasoning, knowledge, and coding proficiency."
   },
-    {
+  {
     "label_part1": "Gemini",
     "label_part2": "Pro",
     "value": "bytarch::gemini-pro",
     "description": "A new generation of AI model that can understand and operate across different types of information."
+  },
+   {
+    "label_part1": "Claude",
+    "label_part2": "3 Haiku",
+    "value": "nxus::claude-3-haiku-20240307",
+    "description": "The fastest of the three Claude 3 models"
+  },
+  {
+    "label_part1": "GPT-4o",
+    "label_part2": "Mini",
+    "value": "closeai::gpt-4o-mini",
+    "description": "ChatGPT 4o Latest - The latest version of ChatGPT with improved features."
   },
   {
     "label_part1": "Liquid",
@@ -54,22 +66,22 @@
     "description": "deep seek coder"
   },
    {
-    "label_part1": "Get Better",
-    "label_part2": "Pro",
-    "value": "img-Flux-1.1-Pro",
-    "description": "The best image generation Model"
+    "label_part1": "Stable Diffusion",
+    "label_part2": "xl",
+    "value": "img-stable-diffusion-xl-base",
+    "description": "A text to image generator"
+  },
+    {
+    "label_part1": "Stable Diffusion",
+    "label_part2": "xl lightning",
+    "value": "img-stable-diffusion-xl-lightning",
+    "description": "A text to image generator"
   },
   {
     "label_part1": "Meta",
     "label_part2": "Llama 3.1 70B",
     "value": "nxus::meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
     "description": "A state-of-the-art instruction-tuned language model designed for multilingual dialogue use cases. It excels in natural language generation and understanding tasks, outperforming many existing models in the industry benchmarks."
-  },
-  {
-    "label_part1": "ChatGPT",
-    "label_part2": "4o Premium",
-    "value": "nxus::gpt-4o-mini",
-    "description": "ChatGPT 4o Premium - OpenAI 4o Model"
   },
   {
     "label_part1": "Art Style",
@@ -82,12 +94,6 @@
     "label_part2": "7b 2",
     "value": "closeai::sqlcoder-7b-2",
     "description": "A Open Source SQL Coder Model."
-  },
-  {
-    "label_part1": "Claude",
-    "label_part2": "3 Haiku",
-    "value": "nxus::claude-3-haiku-20240307",
-    "description": "The fastest of the three Claude 3 models"
   },
   {
     "label_part1": "Mixtral",
@@ -113,11 +119,11 @@
     "value": "openai::gpt-3.5",
     "description": "ChatGPT 3.5 - OpenAI GPT 3 Model"
   },
-  {
-    "label_part1": "GPT-4o",
-    "label_part2": "Mini",
-    "value": "closeai::gpt-4o-mini",
-    "description": "ChatGPT 4o Latest - The latest version of ChatGPT with improved features."
+   {
+    "label_part1": "Source",
+    "label_part2": "AI Uncensored",
+    "value": "closeai::sourceai-1.5-any-uncensored",
+    "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
   },
   {
     "label_part1": "GPT-3.5",
@@ -125,11 +131,11 @@
     "value": "closeai::gpt-4-turbo",
     "description": "GPT 3.5 Turbo (0125) - A fast and efficient version of GPT-3.5."
   },
-  {
-    "label_part1": "GPT",
-    "label_part2": "4o",
-    "value": "closeai::gpt-4o",
-    "description": "GPT 4o - An advanced version of the 4o model."
+   {
+    "label_part1": "Get Better",
+    "label_part2": "Pro",
+    "value": "img-Flux-1.1-Pro",
+    "description": "The best image generation Model"
   },
   {
     "label_part1": "Art Style",
