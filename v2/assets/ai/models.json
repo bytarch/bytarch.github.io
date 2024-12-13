@@ -59,6 +59,12 @@
     "value": "closeai::lfm-40b-moe",
     "description": "The goal at Liquid is to build the most capable AI systems to solve problems at every scale."
   },
+    {
+    "label_part1": "Nemotron3.1",
+    "label_part2": "70B",
+    "value": "beta::nvidia/Llama-3.1-Nemotron-70B-Instruct",
+    "description": "Nvidia Latest Model"
+  },
   {
     "label_part1": "Deepseek",
     "label_part2": "Coder",
