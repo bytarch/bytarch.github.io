@@ -118,6 +118,24 @@
     "label_part2": "3.5 Turbo",
     "value": "lxus::gpt-3.5-turbo",
     "description": "ChatGPT 3.5 - OpenAI GPT 3.5 Turbo Model"
+  }, 
+  {
+    "label_part1": "WizardLM2",
+    "label_part2": "8x22b",
+    "value": "beta::microsoft/WizardLM-2-8x22B",
+    "description": "Microsoft's Best Model"
+  },
+  {
+    "label_part1": "Llama ",
+    "label_part2": "3.3",
+    "value": "beta::meta-llama/Llama-3.3-70B-Instruct",
+    "description": "Meta's Model"
+  },
+  {
+    "label_part1": "Llama 3.3 70b",
+    "label_part2": "Turbo",
+    "value": "beta::meta-llama/Llama-3.3-70B-Instruct",
+    "description": "ChatGPT 3.5 - OpenAI GPT 3 Model"
   },
   {
     "label_part1": "ChatGPT",
