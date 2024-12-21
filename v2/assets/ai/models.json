@@ -6,6 +6,12 @@
     "description": "Free & Great for everyday task 🐱‍🏍"
   },
   {
+    "label_part1": "ChatGPT",
+    "label_part2": "4o",
+    "value": "closeai::gpt-4o",
+    "description": "GPT 4o - An advanced version of the 4o model."
+  },
+  {
     "label_part1": "Deminji-1.5",
     "label_part2": "Bylearn",
     "value": "bytarch::deminji-scorpio",
