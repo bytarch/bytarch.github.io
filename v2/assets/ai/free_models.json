@@ -5,5 +5,10 @@
     "value": "free::sourceai",
     "description": "Great for everyday task 🐱‍🏍"
   },
-  
+  {
+    "label_part1": "Source",
+    "label_part2": "AI Uncensored",
+    "value": "closeai::sourceai-1.5-any-uncensored",
+    "description": "The Corrupted version of Source AI fed with data from any-uncensored model."
+  }
 ]
