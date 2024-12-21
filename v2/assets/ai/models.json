@@ -18,12 +18,6 @@
     "description": "ChatGPT 4o Premium - OpenAI 4o Model"
   },
   {
-    "label_part1": "Flux",
-    "label_part2": "1.1 Pro",
-    "value": "img-Flux-1.1-Pro",
-    "description": "A powerful image generator."
-  },
-  {
     "label_part1": "Ideogram",
     "label_part2": "AI",
     "value": "img-img-ideogram",
@@ -144,6 +138,12 @@
     "label_part1": "Stable Diffusion",
     "label_part2": "Lite",
     "value": "img-stable-diffusion-xl-lightning",
+    "description": "A powerful image generator."
+  },
+  {
+    "label_part1": "Flux",
+    "label_part2": "1.1 Pro",
+    "value": "img-Flux-1.1-Pro",
     "description": "A powerful image generator."
   },
   {
