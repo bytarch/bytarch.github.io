@@ -26,7 +26,7 @@
     {
     "label_part1": "Flux",
     "label_part2": "",
-    "value": "img-flux",
+    "value": "502::flux-pro",
     "description": "A powerful, realistic image generator that generates high-quality images."
   },
   {
@@ -43,9 +43,15 @@
   },
   {
     "label_part1": "Midjourney",
-    "label_part2": "Chat",
-    "value": "501::midjourney-chat",
-    "description": "Chat with Midjourney"
+    "label_part2": "",
+    "value": "502::midjourney",
+    "description": "Generate Images with Midjourney"
+  },
+    {
+    "label_part1": "Rtist",
+    "label_part2": "",
+    "value": "502::rtist",
+    "description": "Image Generation"
   },
   {
     "label_part1": "Qwen",
@@ -60,10 +66,22 @@
     "description": "Claude 3.5 Sonnet is a powerful language model that sets new benchmarks in reasoning, knowledge, and coding proficiency."
   },
   {
-    "label_part1": "Unity",
-    "label_part2": "Assistant",
-    "value": "501::unity-ai",
-    "description": "Unity AI Assistant"
+    "label_part1": "Rtist",
+    "label_part2": "",
+    "value": "502::rtist",
+    "description": "Image Generation"
+  },
+  {
+    "label_part1": "Nitro",
+    "label_part2": "Turbo",
+    "value": "502::turbo",
+    "description": "Image Generation"
+  },
+  {
+    "label_part1": "Flux",
+    "label_part2": "Capybara",
+    "value": "502::flux-ca",
+    "description": "Image Generation"
   },
   {
     "label_part1": "Gemini",
