@@ -13,9 +13,9 @@
   },
   {
     "label_part1": "ChatGPT",
-    "label_part2": "Premium",
-    "value": "501::chatgpt-premium",
-    "description": "ChatGPT Premium"
+    "label_part2": "Pro",
+    "value": "501::chatgpt-pro",
+    "description": "ChatGPT Pro"
   },
   {
     "label_part1": "Ideogram",
