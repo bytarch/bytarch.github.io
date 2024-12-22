@@ -25,9 +25,9 @@
   },
     {
     "label_part1": "Flux",
-    "label_part2": "",
+    "label_part2": "Pro",
     "value": "502::flux-pro",
-    "description": "A powerful, realistic image generator that generates high-quality images."
+    "description": "A powerful, realistic image generator that generates high-quality images. (Pro)"
   },
   {
     "label_part1": "Flux",
