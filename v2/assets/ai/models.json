@@ -47,12 +47,6 @@
     "value": "502::midjourney",
     "description": "Generate Images with Midjourney"
   },
-    {
-    "label_part1": "Rtist",
-    "label_part2": "",
-    "value": "502::rtist",
-    "description": "Image Generation"
-  },
   {
     "label_part1": "Qwen",
     "label_part2": "Coder",
