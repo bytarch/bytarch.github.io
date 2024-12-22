@@ -195,12 +195,6 @@
     "description": "A powerful image generator."
   },
   {
-    "label_part1": "Flux",
-    "label_part2": "1.1 Pro",
-    "value": "img-Flux-1.1-Pro",
-    "description": "A powerful image generator."
-  },
-  {
     "label_part1": "Stable Diffusion",
     "label_part2": "Base",
     "value": "img-stable-diffusion-xl-base",
