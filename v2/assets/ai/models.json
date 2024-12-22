@@ -13,9 +13,9 @@
   },
   {
     "label_part1": "ChatGPT",
-    "label_part2": "4o Mini",
-    "value": "nxus::gpt-4o-mini",
-    "description": "ChatGPT 4o Premium - OpenAI 4o Model"
+    "label_part2": "Premium",
+    "value": "501::chatgpt-premium",
+    "description": "ChatGPT Premium"
   },
   {
     "label_part1": "Ideogram",
@@ -41,17 +41,41 @@
     "value": "img-flux-disney",
     "description": "A powerful Disney image generator."
   },
+  {
+    "label_part1": "Midjourney",
+    "label_part2": "Chat",
+    "value": "501::midjourney-chat",
+    "description": "Chat with Midjourney"
+  },
+  {
+    "label_part1": "Qwen",
+    "label_part2": "Coder",
+    "value": "501::qwen-coder",
+    "description": "Code Model"
+  },
    {
     "label_part1": "Claude",
     "label_part2": "3.5 Sonnet",
-    "value": "bytarch::claude-3.5-sonnet",
+    "value": "501::claude-3.5-sonnet",
     "description": "Claude 3.5 Sonnet is a powerful language model that sets new benchmarks in reasoning, knowledge, and coding proficiency."
+  },
+  {
+    "label_part1": "Unity",
+    "label_part2": "Assistant",
+    "value": "501::unity-ai",
+    "description": "Unity AI Assistant"
   },
   {
     "label_part1": "Gemini",
     "label_part2": "Pro",
     "value": "bytarch::gemini-pro",
     "description": "A new generation of AI model that can understand and operate across different types of information."
+  },
+   {
+    "label_part1": "Search",
+    "label_part2": "GPT",
+    "value": "501::searchgpt",
+    "description": "OpenAI's search gpt"
   },
    {
     "label_part1": "Claude",
@@ -65,6 +89,18 @@
     "value": "img-flux-anime",
     "description": "A powerful image generator that generates anime images."
   },
+   {
+    "label_part1": "Mistral",
+    "label_part2": "Large",
+    "value": "501::mistral-large",
+    "description": "Mistral Large"
+  },
+  {
+    "label_part1": "Mistral",
+    "label_part2": "Nemo",
+    "value": "501::mistral-nemo",
+    "description": "Mistral Nemo"
+  },
   {
     "label_part1": "Nemotron3.1",
     "label_part2": "70B",
@@ -72,9 +108,9 @@
     "description": "Nvidia Latest Model"
   },
    {
-    "label_part1": "Llama 3.3",
+    "label_part1": "Llama 3.1",
     "label_part2": "70b",
-    "value": "genesis::meta/llama-3.3-70b-instruct-fp8-fast",
+    "value": "501::llama-3.1-70b",
     "description": "Meta Latest AI Model"
   },
   {
@@ -125,7 +161,7 @@
     "label_part1": "Llama 3.3 70b",
     "label_part2": "Turbo",
     "value": "beta::meta-llama/Llama-3.3-70B-Instruct",
-    "description": "ChatGPT 3.5 - OpenAI GPT 3 Model"
+    "description": "Meta LLM"
   },
   
   {
