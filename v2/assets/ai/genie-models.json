@@ -1,4 +1,5 @@
 {
+
   "bytarch::deminji-scorpio": "ByLearn",
   "free::sourceai": "SourceGPT (Free)",
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
@@ -7,6 +8,7 @@
   "bytarch::gpt": "GPT",
   "openai::gpt-4o": "ChatGPT 4o",
   "501::chatgpt-pro": "ChatGPT o1",
+  "google::gemini-2.0-flash-exp": "Gemini 2.0",
   "69::openchat/openchat-7b": "OpenChat",
   "69::mistralai/mistral-7b-instruct": "Mistral 7B",
   "502::flux": "Flux",
