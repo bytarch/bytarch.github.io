@@ -9,7 +9,6 @@
   "openai::gpt-4o": "ChatGPT 4o",
   "501::chatgpt-pro": "ChatGPT o1",
   "google::gemini-2.0-flash-exp": "Gemini 2.0",
-  "google::gemini-2.0-flash-thinking-exp-1219":"Gemini 2.0 Thinking",
   "69::openchat/openchat-7b": "OpenChat",
   "69::mistralai/mistral-7b-instruct": "Mistral 7B",
   "502::flux": "Flux",
