@@ -2,17 +2,20 @@
 
   "bytarch::deminji-scorpio": "ByLearn",
   "free::sourceai": "SourceGPT (Free)",
-  "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
-  "nxus::claude-3-haiku-20240307": "Claude 3 Haiku",
-  "501::searchgpt": "SearchGPT",
-  "bytarch::gpt": "GPT",
   "openai::gpt-4o": "ChatGPT 4o",
   "501::chatgpt-pro": "ChatGPT o1",
+  "501::searchgpt": "SearchGPT",
+  "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
+  "net::mid-r1": "Son Reasoning",
+  "net::pro": "Son Pro",
+  "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "google::gemini-2.0-flash-exp": "Gemini 2.0",
-  "69::openchat/openchat-7b": "OpenChat",
-  "69::mistralai/mistral-7b-instruct": "Mistral 7B",
+  "gptzero::1":"GPT Zero"
+  "brainrot:1":"Brainrot Summary",
   "502::flux": "Flux",
   "502::flux-cablyai": "Flux Dev",
   "502::midjourney": "Midjourney",
-  "net::pro":"Son Pro"
+  "502::turbo": "Nitro Turbo",
+  "img-flux-disney": "Flux Disney"
+
 }
