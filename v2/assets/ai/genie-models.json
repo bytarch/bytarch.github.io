@@ -9,7 +9,7 @@
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "google::gemini-2.0-flash-exp": "Gemini 2.0",
   "gptzero::1":"GPT Zero",
-  "brainrot:1":"Brainrot Summary",
+  "brainrot::1":"Brainrot Summary",
   "502::flux": "Flux",
   "502::flux-cablyai": "Flux Dev",
   "502::midjourney": "Midjourney",
