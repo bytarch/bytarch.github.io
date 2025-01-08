@@ -1,3 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url=https://bytarch.taile6b163.ts.net/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checking your browser</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f0f0f0;
+    }
+    .spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-left-color: #3498db;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+  <script>
+    // List of common valid user agent patterns
+    const validUserAgentPatterns = [
+      /Mozilla\/5\.0/,
+      /Chrome\/\d+/,
+      /Safari\/\d+/,
+      /Firefox\/\d+/,
+      /Edg\/\d+/,
+      /Trident\/\d+/
+    ];
+
+    function isValidUserAgent(userAgent) {
+      return validUserAgentPatterns.some(pattern => pattern.test(userAgent));
+    }
+
+    function checkBrowserAndRedirect() {
+      const userAgent = navigator.userAgent;
+      
+      // Check if user agent is valid
+      if (isValidUserAgent(userAgent)) {
+        // Redirect after a short delay to simulate checking
+        setTimeout(function() {
+          window.location.href = "https://genie.bytarch.run.place/";
+        }, 3000);
+      } else {
+        // If user agent is not valid, show an error message
+        document.getElementById('verification-container').innerHTML = `
+          <div class="text-center text-red-600">
+            <p>Access Denied</p>
+            <p class="text-sm text-gray-600">Invalid browser detected</p>
+          </div>
+        `;
+      }
+    }
+
+    // Run the check when the page loads
+    window.onload = checkBrowserAndRedirect;
+  </script>
 </head>
+<body class="flex items-center justify-center h-screen p-4">
+  <div class="bg-white rounded-lg shadow-xl max-w-md w-full p-8">
+    <div class="flex flex-col items-center justify-center mb-6">
+      <img src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/848020/logo-3a3717c3-f838-4918-9b66-f8023714c834.png" alt="Bytarch Logo" class="w-24 mb-4">
+      <p class="text-gray-700 font-medium text-sm">Checking your browser before accessing</p>
+      <p class="text-gray-900 font-semibold text-lg">Genie</p>
+    </div>
+
+    <div id="verification-container" class="text-center">
+      <div class="spinner mb-4"></div>
+      <p class="text-gray-700 mb-4">This process is automatic. Your browser will redirect shortly.</p>
+      <div class="animate-pulse">
+        <p class="text-gray-600 text-sm">Verifying browser and device...</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
