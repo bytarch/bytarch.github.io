@@ -10,8 +10,5 @@
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "google::gemini-2.0-flash-exp": "Gemini 2.0",
   "502::flux": "Flux",
-  "502::flux-cablyai": "Flux Dev",
   "502::midjourney": "Midjourney",
-  "502::turbo": "Nitro Turbo",
-  "img-flux-disney": "Flux Disney"
 }
