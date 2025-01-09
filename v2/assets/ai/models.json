@@ -52,5 +52,5 @@
     "label_part2": "3.3",
     "value": "beta::meta-llama/Llama-3.3-70B-Instruct",
     "description": "Meta's Model"
-  },
+  }
 ]
