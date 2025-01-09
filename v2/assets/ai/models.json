@@ -18,70 +18,10 @@
     "description": "ChatGPT Pro"
   },
   {
-    "label_part1": "Ideogram",
-    "label_part2": "AI",
-    "value": "img-img-ideogram",
-    "description": "A powerful, realistic image generator that generates high-quality images and logos."
-  },
-    {
     "label_part1": "Flux",
-    "label_part2": "Pro",
-    "value": "502::flux-pro",
-    "description": "A powerful, realistic image generator that generates high-quality images. (Pro)"
-  },
-  {
-    "label_part1": "Flux",
-    "label_part2": "Realism",
-    "value": "img-flux-realism",
-    "description": "A powerful, realistic image generator that generates high-quality images."
-  },
-  {
-    "label_part1": "Flux",
-    "label_part2": "Disney",
-    "value": "img-flux-disney",
-    "description": "A powerful Disney image generator."
-  },
-  {
-    "label_part1": "Midjourney",
     "label_part2": "",
-    "value": "502::midjourney",
-    "description": "Generate Images with Midjourney"
-  },
-  {
-    "label_part1": "Qwen",
-    "label_part2": "Coder",
-    "value": "501::qwen-coder",
-    "description": "Code Model"
-  },
-   {
-    "label_part1": "Claude",
-    "label_part2": "3.5 Sonnet",
-    "value": "501::claude-3.5-sonnet",
-    "description": "Claude 3.5 Sonnet is a powerful language model that sets new benchmarks in reasoning, knowledge, and coding proficiency."
-  },
-  {
-    "label_part1": "Nitro",
-    "label_part2": "Turbo",
-    "value": "502::turbo",
+    "value": "502::flux",
     "description": "Image Generation"
-  },
-  {
-    "label_part1": "Flux",
-    "label_part2": "Capybara",
-    "value": "502::flux-ca",
-    "description": "Image Generation"
-  },
-  {
-    "label_part1": "Gemini",
-    "label_part2": "Pro",
-    "value": "bytarch::gemini-pro",
-    "description": "A new generation of AI model that can understand and operate across different types of information."
-  },
-   {
-    "label_part1": "Search",
-    "label_part2": "GPT",
-    "value": "501::searchgpt",
-    "description": "OpenAI's search gpt"
   },
    {
     "label_part1": "Claude",
@@ -90,53 +30,16 @@
     "description": "The fastest of the three Claude 3 models"
   },
   {
-    "label_part1": "Flux",
-    "label_part2": "Anime",
-    "value": "img-flux-anime",
-    "description": "A powerful image generator that generates anime images."
-  },
-   {
-    "label_part1": "Mistral",
-    "label_part2": "Large",
-    "value": "501::mistral-large",
-    "description": "Mistral Large"
-  },
-  {
-    "label_part1": "Mistral",
-    "label_part2": "Nemo",
-    "value": "501::mistral-nemo",
-    "description": "Mistral Nemo"
-  },
-  {
     "label_part1": "Nemotron3.1",
     "label_part2": "70B",
     "value": "beta::nvidia/Llama-3.1-Nemotron-70B-Instruct",
     "description": "Nvidia Latest Model"
-  },
-   {
-    "label_part1": "Llama 3.1",
-    "label_part2": "70b",
-    "value": "501::llama-3.1-70b",
-    "description": "Meta Latest AI Model"
-  },
-  {
-    "label_part1": "Meta",
-    "label_part2": "Llama 3.1 70B",
-    "value": "nxus::meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-    "description": "A state-of-the-art instruction-tuned language model designed for multilingual dialogue use cases. It excels in natural language generation and understanding tasks, outperforming many existing models in the industry benchmarks."
   },
   {
     "label_part1": "Mixtral",
     "label_part2": "8x",
     "value": "nxus::mistralai/Mixtral-8x7B-Instruct-v0.1",
     "description": "The base model optimized for chat purposes"
-  },
-  
-  {
-    "label_part1": "Flux",
-    "label_part2": "3D",
-    "value": "img-flux-3d",
-    "description": "A powerful 3D image generator."
   },
   {
     "label_part1": "ChatGPT",
@@ -145,53 +48,9 @@
     "description": "ChatGPT 3.5 - OpenAI GPT 3.5 Turbo Model"
   }, 
   {
-    "label_part1": "WizardLM2",
-    "label_part2": "8x22b",
-    "value": "beta::microsoft/WizardLM-2-8x22B",
-    "description": "Microsoft's Best Model"
-  },
-  
-  {
-    "label_part1": "Flux",
-    "label_part2": "Pixel",
-    "value": "img-flux-pixel",
-    "description": "A powerful pixel image generator."
-  },
-  {
     "label_part1": "Llama ",
     "label_part2": "3.3",
     "value": "beta::meta-llama/Llama-3.3-70B-Instruct",
     "description": "Meta's Model"
   },
-  {
-    "label_part1": "Llama 3.3 70b",
-    "label_part2": "Turbo",
-    "value": "beta::meta-llama/Llama-3.3-70B-Instruct",
-    "description": "Meta LLM"
-  },
-  
-  {
-    "label_part1": "ChatGPT",
-    "label_part2": "3.5",
-    "value": "openai::gpt-3.5",
-    "description": "ChatGPT 3.5 - OpenAI GPT 3 Model"
-  },
-    {
-    "label_part1": "Stable Diffusion",
-    "label_part2": "Lite",
-    "value": "img-stable-diffusion-xl-lightning",
-    "description": "A powerful image generator."
-  },
-  {
-    "label_part1": "Stable Diffusion",
-    "label_part2": "Base",
-    "value": "img-stable-diffusion-xl-base",
-    "description": "A powerful image generator."
-  },
-    {
-    "label_part1": "Flux",
-    "label_part2": "4o",
-    "value": "img-flux-4o",
-    "description": "A powerful image generator."
-  }
 ]
