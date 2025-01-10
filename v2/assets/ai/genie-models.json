@@ -1,6 +1,7 @@
 {
   "bytarch::deminji-scorpio": "ByLearn",
   "501::chatgpt-pro": "ChatGPT o1",
+  "free:sourceai": "SourceGPT (Free)",
   "501::searchgpt": "SearchGPT",
   "deepseek::v3": "DeepSeek v3",
   "net::mid-r1": "Son Thinking",
