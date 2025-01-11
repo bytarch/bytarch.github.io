@@ -7,7 +7,7 @@
   "net::mid-r1": "Son Thinking",
   "net::pro": "Son Pro",
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
-  "google::tunedModels/deminji-v3-qa3e18xyu67i": "Deminji v3",
+  "deminji::deminji-v3-qa3e18xyu67i": "Deminji v3",
   "502::flux": "Flux",
   "502::midjourney": "Midjourney"
 }
