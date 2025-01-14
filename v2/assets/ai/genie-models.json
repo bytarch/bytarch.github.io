@@ -3,7 +3,7 @@
   "free::sourceai": "SourceGPT (Free)",
   "501::chatgpt-pro": "ChatGPT o1",
   "501::searchgpt": "SearchGPT",
-  "deepseek::v3": "DeepSeek v3",
+  "02::llama": "Llama 3.1",
   "net::mid-r1": "Son Thinking",
   "net::pro": "Son Pro",
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
