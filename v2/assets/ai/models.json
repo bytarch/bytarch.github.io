@@ -18,6 +18,12 @@
     "description": "ChatGPT Pro"
   },
   {
+    "label_part1": "Son",
+    "label_part2": "r1",
+    "value": "net::pro-r1",
+    "description": "An Advance Reasoning Model"
+  },
+  {
     "label_part1": "Flux",
     "label_part2": "",
     "value": "502::flux",
