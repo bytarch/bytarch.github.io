@@ -24,6 +24,12 @@
     "description": "An Advance Reasoning Model"
   },
   {
+    "label_part1": "DeepSeek",
+    "label_part2": "v3",
+    "value": "501::deepseek-v3",
+    "description": "The best Open Source Model yet"
+  },
+  {
     "label_part1": "Flux",
     "label_part2": "",
     "value": "502::flux",
