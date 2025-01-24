@@ -9,8 +9,4 @@
   "501::deepseek-v3":"DeepSeek v3",
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "502::flux": "Flux",
-  "OO::flux": "Flux 1.1 Pro",
-  "OO::sdxl": "Stable Diffusion XL",
-  "OO::sd": "Stable Diffusion",
-  "OO::sd35": "Stable Diffusion 3.5"
 }
