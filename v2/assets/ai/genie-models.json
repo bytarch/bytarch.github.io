@@ -8,6 +8,7 @@
   "net::pro": "Son Pro",
   "501::deepseek-v3":"DeepSeek v3",
   "bytarch::deepseek-r1":"DeepSeek r1",
+  "0::deepseek-r1:1.5b":"DeepSeek r1 Lite",
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "502::flux": "Flux"
 }
