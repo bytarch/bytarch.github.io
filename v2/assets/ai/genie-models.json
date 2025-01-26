@@ -9,5 +9,17 @@
   "501::searchgpt": "SearchGPT",
   "net::pro-r1": "Son r1",
   "net::pro": "Son Pro",
-  "502::flux": "Flux"
+  "502::flux": "Flux",
+  "OO::colorized": "Colorized Prints",
+  "OO::ads": "Ads",
+  "OO::anime": "Anime",
+  "OO::comic": "Comic",
+  "OO::manga": "Manga",
+  "OO::logo": "Logo",
+  "OO::fine_detail": "Detail Gen",
+  "OO::2004": "2004",
+  "OO::photo": "Photo Realistic",
+  "OO::cereal": "Cereal",
+  "OO::90s_anime": "90s Anime",
+  "OO::leo": "Leonardo AI"
 }
