@@ -5,6 +5,8 @@
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "501::chatgpt-pro": "ChatGPT o1",
   "501::searchgpt": "SearchGPT",
+  "11::deepseek-r1": "DeepSeek r1",
+  "11::deepseek-v3": "DeepSeek v3",
   "net::pro-r1": "Son r1",
   "net::pro": "Son Pro",
   "502::flux": "Flux",
