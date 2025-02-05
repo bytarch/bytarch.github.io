@@ -110,19 +110,19 @@
   {
     "label_part1": "mistralai",
     "label_part2": "Mixtral-8x22B-Instruct-v0.1",
-    "value": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "value": "beta::mistralai/Mixtral-8x22B-Instruct-v0.1",
     "description": ""
   },
   {
     "label_part1": "mistralai",
     "label_part2": "Mistral-7B-Instruct-v0.3",
-    "value": "mistralai/Mistral-7B-Instruct-v0.3",
+    "value": "beta::mistralai/Mistral-7B-Instruct-v0.3",
     "description": ""
   },
   {
     "label_part1": "Qwen",
     "label_part2": "Qwen2.5-72B-Instruct",
-    "value": "Qwen/Qwen2.5-72B-Instruct",
+    "value": "beta::Qwen/Qwen2.5-72B-Instruct",
     "description": ""
   },
   {
@@ -152,7 +152,7 @@
   {
     "label_part1": "meta-llama",
     "label_part2": "Meta-Llama-3.1-8B-Instruct",
-    "value": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "value": "beta::meta-llama/Meta-Llama-3.1-8B-Instruct",
     "description": ""
   },
   {
