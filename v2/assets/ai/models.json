@@ -128,25 +128,25 @@
   {
     "label_part1": "meta-llama",
     "label_part2": "Meta-Llama-3-8B-Instruct",
-    "value": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "value": "beta::meta-llama/Meta-Llama-3-8B-Instruct",
     "description": ""
   },
   {
     "label_part1": "meta-llama",
     "label_part2": "Meta-Llama-3-70B-Instruct",
-    "value": "meta-llama/Meta-Llama-3-70B-Instruct",
+    "value": "beta::meta-llama/Meta-Llama-3-70B-Instruct",
     "description": ""
   },
   {
     "label_part1": "meta-llama",
     "label_part2": "Meta-Llama-3.1-405B-Instruct",
-    "value": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+    "value": "beta::meta-llama/Meta-Llama-3.1-405B-Instruct",
     "description": ""
   },
   {
     "label_part1": "meta-llama",
     "label_part2": "Meta-Llama-3.1-70B-Instruct",
-    "value": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "value": "beta::meta-llama/Meta-Llama-3.1-70B-Instruct",
     "description": ""
   },
   {
@@ -158,37 +158,37 @@
   {
     "label_part1": "meta-llama",
     "label_part2": "Meta-Llama-3.1-70B-Instruct-Turbo",
-    "value": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "value": "beta::meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
     "description": ""
   },
   {
     "label_part1": "meta-llama",
     "label_part2": "Llama-3.3-70B-Instruct",
-    "value": "meta-llama/Llama-3.3-70B-Instruct",
+    "value": "beta::meta-llama/Llama-3.3-70B-Instruct",
     "description": ""
   },
   {
     "label_part1": "meta-llama",
     "label_part2": "Llama-3.3-70B-Instruct-Turbo",
-    "value": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "value": "beta::meta-llama/Llama-3.3-70B-Instruct-Turbo",
     "description": ""
   },
   {
     "label_part1": "nvidia",
     "label_part2": "Llama-3.1-Nemotron-70B-Instruct",
-    "value": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
+    "value": "beta::nvidia/Llama-3.1-Nemotron-70B-Instruct",
     "description": ""
   },
   {
     "label_part1": "microsoft",
     "label_part2": "phi-4",
-    "value": "microsoft/phi-4",
+    "value": "beta::microsoft/phi-4",
     "description": ""
   },
   {
     "label_part1": "mistralai",
     "label_part2": "Mistral-Small-24B-Instruct-2501",
-    "value": "mistralai/Mistral-Small-24B-Instruct-2501",
+    "value": "beta::mistralai/Mistral-Small-24B-Instruct-2501",
     "description": ""
   },
   {
