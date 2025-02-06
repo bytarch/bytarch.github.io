@@ -1,7 +1,6 @@
 {
   "bytarch::deminji-scorpio": "ByLearn",
   "free::sourceai": "SourceGPT (Free)",
-  "deepresearcher::v1": "DeepResearcher",
   "bytarch::v3": "Deminji v3",
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "501::chatgpt-pro": "ChatGPT o1",
