@@ -226,6 +226,36 @@
     "label_part2": "tutor",
     "value": "tutor::tutor",
     "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "bytarch::gemini-1.5-flash",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "bytarch::gpt-3.5-turbo",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "bytarch::deepseek-r1",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "bytarch::deepseek-v3",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "bytarch::deepseek-reason",
+    "description": ""
   }
   
 
