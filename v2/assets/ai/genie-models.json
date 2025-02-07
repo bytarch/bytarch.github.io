@@ -1,11 +1,13 @@
 {
   "bytarch::deminji-scorpio": "ByLearn",
   "free::sourceai": "SourceGPT (Free)",
+  "closeai::o3-mini": "o3 Mini",
   "bytarch::v3": "Deminji v3",
   "bytarch::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "501::chatgpt-pro": "ChatGPT o1",
   "501::searchgpt": "SearchGPT",
   "11::deepseek-r1": "DeepSeek r1",
+  "google::gemini-2.0-flash-exp": "Gemini 2.0",
   "11::deepseek-v3": "DeepSeek v3",
   "net::pro-r1": "Son r1",
   "net::pro": "Son Pro",
