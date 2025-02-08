@@ -256,7 +256,228 @@
     "label_part2": "",
     "value": "bytarch::deepseek-reason",
     "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "net::pro",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama-guard-3-8b",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::deepseek-r1-distill-llama-70b",
+    "description": "DeepSeek R1 Distill 70B"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama3-8b-8192",
+    "description": "Llama 3.1 8B"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::mixtral-8x7b-32768",
+    "description": "Mixtral 8x7B"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::gemma2-9b-it",
+    "description": "Gemma 2 9B"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama-3.3-70b-specdec",
+    "description": "Llama 3.3 70B SpecDec"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama-3.1-8b-instant",
+    "description": "Llama 3.1 8B Instant"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama-3.2-1b-preview",
+    "description": "Llama 3.2 1B Preview"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama-guard-3-8b",
+    "description": "Llama Guard 3 8B"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::logo_gen",
+    "description": "Logo Gen"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::flux_lora",
+    "description": "Flux Lora"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama3-70b-8192",
+    "description": "Llama 3.1 70B"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama-3.2-3b-preview",
+    "description": "Llama 3.2 3B Preview"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "AA::llama-3.2-11b-vision-preview",
+    "description": "Llama 3.2 11B Vision Preview"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::cartoon",
+    "description": "Cartoon"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::line_art",
+    "description": "Line Art"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::animev1",
+    "description": "Anime V1"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::paper_cut",
+    "description": "Paper Cut"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::line_beta",
+    "description": "Line Beta"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::flux_1_dev",
+    "description": "Flux 1 Dev"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::flux_freaky",
+    "description": "Flux Freaky"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::insta_pic",
+    "description": "Insta Pic"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::sketch",
+    "description": "Sketch"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::dalle_3",
+    "description": "DALL·E 3"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::mangav1",
+    "description": "Manga V1"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::comic",
+    "description": "Comic"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::manga",
+    "description": "Manga"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::logo",
+    "description": "Logo"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::fine_detail",
+    "description": "Detail Gen"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::2004",
+    "description": "2004"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::photo",
+    "description": "Photo Realistic"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "OO::90s_anime",
+    "description": "90s Anime"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "net::pro-r1",
+    "description": "Son r1"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "net::pro",
+    "description": "Son Pro"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "bytarch::v3",
+    "description": "Deminji v3"
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "bytarch::claude-3.5-sonnet",
+    "description": "Claude 3.5 Sonnet"
   }
-  
 
 ]
