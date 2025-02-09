@@ -5,7 +5,7 @@
   "bytarch::o3-mini": "o3 Mini (Backup)",
   "genie::sonar-reasoning-pro":"Sonar Reasoning Pro",
   "genie::sonar-reasoning":"Sonar Reasoning",
-  "genie::copilot": "Copilot",
+  "genie::Copilot": "Copilot",
   "genie::qwen-2.5-1m-demo":"Qwen 2.5 1M",
   "genie::qvq-72b":"QvQ 72B",
   "501::chatgpt-pro": "ChatGPT Latest",
