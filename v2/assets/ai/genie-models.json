@@ -8,8 +8,6 @@
   "genie::copilot": "Copilot",
   "genie::qwen-2.5-1m-demo":"Qwen 2.5 1M",
   "genie::qvq-72b":"QvQ 72B",
-  "genie::qwen-qwen2-72b-instruct":"Qwen2 72B Instruct",
-  "genie::qwen-qvq-72b-preview":"Qwen QvQ 72B Preview",
   "501::chatgpt-pro": "ChatGPT Latest",
   "genie::gpt-4":"GPT 4",
   "501::searchgpt": "SearchGPT",
