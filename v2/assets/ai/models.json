@@ -477,7 +477,67 @@
     "label_part1": "",
     "label_part2": "",
     "value": "bytarch::claude-3.5-sonnet",
-    "description": "Claude 3.5 Sonnet"
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "69::deepseek/deepseek-chat",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "69::deepseek/deepseek-r1",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "69::qwen/qwen2.5-vl-72b-instruct",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "69::qwen/qwen-vl-plus",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "00::qwen-2.5-32b",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "00::deepseek-r1-distill-qwen-32b",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "02::gemini-thinking",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "02::deepseek-r1-distill-llama-70b",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "02::claude-3-opus",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "02::gemini-2.0",
+    "description": ""
   }
 
 ]
