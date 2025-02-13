@@ -6,12 +6,6 @@
     "description": "Free & Great for everyday task 🐱‍🏍"
   },
   {
-    "label_part1": "Deminji-1.5",
-    "label_part2": "Bylearn",
-    "value": "bytarch::deminji-scorpio",
-    "description": "Deminji 1.5 Scorpio - The most powerful model for complex computations."
-  },
-  {
     "label_part1": "ChatGPT",
     "label_part2": "Pro",
     "value": "501::chatgpt-pro",
@@ -466,12 +460,6 @@
     "label_part2": "",
     "value": "net::pro",
     "description": "Son Pro"
-  },
-  {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "bytarch::v3",
-    "description": "Deminji v3"
   },
   {
     "label_part1": "",
