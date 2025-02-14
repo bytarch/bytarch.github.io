@@ -2,7 +2,7 @@
   "free::sourceai": "SourceGPT (Free)",
   "02::claude-3.5-sonnet": "Claude 3.5 Sonnet",
   "closeai::o3-mini": "o3 Mini High",
-  "genie::gpt-4o-mini-2024-07-18|OIVSCode":"GPT-4o Mini",
+  "22::claude-3-5-sonnet-20240620":"Claude 3.5 Sonnet (Backup)",
   "bytarch::o3-mini": "o3 Mini (Backup)",
   "genie::sonar-reasoning-pro":"Sonar Reasoning Pro",
   "genie::sonar-reasoning":"Sonar Reasoning",
