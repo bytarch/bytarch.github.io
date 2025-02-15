@@ -526,6 +526,12 @@
     "label_part2": "",
     "value": "02::gemini-2.0",
     "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "11::deepseek-r1",
+    "description": ""
   }
 
 ]
