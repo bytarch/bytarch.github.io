@@ -181,12 +181,6 @@
     "description": ""
   },
   {
-    "label_part1": "qwen",
-    "label_part2": "qwen-32b-preview",
-    "value": "11::qwen-32b-preview",
-    "description": ""
-  },
-  {
     "label_part1": "meta-llama",
     "label_part2": "Llama-3.2-90B-Vision-Instruct",
     "value": "beta::meta-llama/Llama-3.2-90B-Vision-Instruct",
@@ -521,12 +515,5 @@
     "label_part2": "",
     "value": "02::gemini-2.0",
     "description": ""
-  },
-  {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "11::deepseek-r1",
-    "description": ""
   }
-
 ]
