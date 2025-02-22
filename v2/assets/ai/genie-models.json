@@ -9,12 +9,5 @@
   "google::gemini-2.0-flash-exp": "Gemini 2.0",
   "net::pro-r1": "Son Pro r1",
   "502::flux": "Flux",
-  "OO::colorized": "Colorized Prints",
-  "OO::anime": "Anime",
-  "OO::leo": "Leonardo AI",
-  "OO::korub": "Caricature",
-  "OO::tattoo": "Tattoo Art",
-  "OO::coloring_book": "Coloring Book",
-  "OO::paper_cut": "Paper Cut",
-  "OO::flux_freaky":"Flux Freaky"
+  "img::gen": "Twitter (X) Generation"
 }
