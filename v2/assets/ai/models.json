@@ -1,5 +1,16 @@
 [
-
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "501::gpt-4o-mini",
+    "description": ""
+  },  
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "501::o1-mini",
+    "description": ""
+  },
   {
     "label_part1": "ChatGPT",
     "label_part2": "Pro",
@@ -508,6 +519,18 @@
     "label_part1": "",
     "label_part2": "",
     "value": "02::gemini-2.0",
+    "description": ""
+  },
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "02::mistral-large-latest",
+    "description": ""
+  },  
+  {
+    "label_part1": "",
+    "label_part2": "",
+    "value": "02::mistral-large-2411",
     "description": ""
   }
 ]
