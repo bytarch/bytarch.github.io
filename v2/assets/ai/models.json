@@ -8,6 +8,12 @@
   {
     "label_part1": "",
     "label_part2": "",
+    "value": "501::searchgpt",
+    "description": ""
+  },  
+  {
+    "label_part1": "",
+    "label_part2": "",
     "value": "501::o1-mini",
     "description": ""
   },
