@@ -39,8 +39,7 @@
   "availableImageDetectModels": [
     "69::qwen/qwen2.5-vl-72b-instruct",
     "69::qwen/qwen-vl-plus",
-    "0::qwen-qvq-72b-preview",
-    "genie::qwen-qvq-72b-preview|HuggingSpace"
+    "501::chatgpt-pro",
   ],
   "availableImageModels": [
     "502::flux",
