@@ -23,7 +23,8 @@
   ],
   "availableSearchModels": [
     "research::research",
-    "501::searchgpt","genie::Copilot"
+    "501::searchgpt","genie::Copilot","0::command-latest-search",
+"0::command-r-search","0::command-r-plus-search"
   ],
   "availableReasonModels": [
     "02::deepseek-r1-distill-llama-70b",
