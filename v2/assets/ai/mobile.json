@@ -2,10 +2,11 @@
   "availableChatModels": [
     "closeai::o3-mini",
     "501::chatgpt-pro",
+    
+    "501::searchgpt",
     "net::pro",
     "net::air",
     "501::gpt-4o-mini",
-    "beta::deepseek-ai/DeepSeek-V3",
     "69::cognitivecomputations/dolphin3.0-r1-mistral-24b",
     "bytarch::deepseek-v3",
     "closeai::gpt-4o-mini",
@@ -14,16 +15,11 @@
     "02::grok-2",
     "02::gemini-2.0",
     "beta::microsoft/phi-4",
-    "0::o1-preview",
-    "0::o1",
-    "0::deepseek-v3",
     "0::o1-mini",
-    "0::o3-mini-high",
     "0::o3-mini"
   ],
   "availableSearchModels": [
-    "research::research",
-    "501::searchgpt","genie::Copilot","0::command-latest-search",
+    "research::research",,"genie::Copilot","0::command-latest-search",
 "0::command-r-search","0::command-r-plus-search"
   ],
   "availableReasonModels": [
