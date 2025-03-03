@@ -2,7 +2,6 @@
   "availableChatModels": [
     "closeai::o3-mini",
     "501::chatgpt-pro",
-    
     "501::searchgpt",
     "net::pro",
     "net::air",
