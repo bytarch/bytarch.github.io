@@ -1,0 +1,65 @@
+{
+  "availableChatModels": [
+    "closeai::o3-mini",
+    "501::chatgpt-pro",
+    "net::pro",
+    "net::air",
+    "501::gpt-4o-mini",
+    "beta::deepseek-ai/DeepSeek-V3",
+    "69::cognitivecomputations/dolphin3.0-r1-mistral-24b",
+    "bytarch::deepseek-v3",
+    "closeai::gpt-4o-mini",
+    "02::mistral-large-latest",
+    "02::mistral-large-2411",
+    "02::grok-2",
+    "02::gemini-2.0",
+    "beta::microsoft/phi-4",
+    "0::o1-preview",
+    "0::o1",
+    "0::deepseek-v3",
+    "0::o1-mini",
+    "0::o3-mini-high",
+    "0::o3-mini"
+  ],
+  "availableSearchModels": [
+    "research::research",
+    "501::searchgpt"
+  ],
+  "availableReasonModels": [
+    "02::deepseek-r1-distill-llama-70b",
+    "beta::deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+    "beta::deepseek-ai/DeepSeek-R1",
+    "bytarch::deepseek-r1",
+    "bytarch::deepseek-reason",
+    "69::deepseek/deepseek-r1",
+    "genie::deepseek-ai/DeepSeek-R1|Glider",
+    "AA::deepseek-r1-distill-llama-70b",
+    "0::deepseek-r1"
+  ],
+  "availableImageDetectModels": [
+    "69::qwen/qwen2.5-vl-72b-instruct",
+    "69::qwen/qwen-vl-plus",
+    "0::qwen-qvq-72b-preview",
+    "genie::qwen-qvq-72b-preview|HuggingSpace"
+  ],
+  "availableImageModels": [
+    "502::flux",
+    "img::gen"
+  ],
+  "availableResearchModels": [
+    "deepresearcher::v1"
+  ],
+  "availableDetectors": [
+    "gptzero::detect-intent"
+  ],
+  "availableTutors": [
+    "501::tutor",
+    "tutor::tutor"
+  ],
+  "availableCs": [
+    "cs::v1"
+  ],
+  "availableHumanizer": [
+    "humanizer::brosa-beta-1.1"
+  ]
+}
