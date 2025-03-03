@@ -18,7 +18,7 @@
     "0::o3-mini"
   ],
   "availableSearchModels": [
-    "research::research",,"genie::Copilot","0::command-latest-search",
+    "research::research","genie::Copilot","0::command-latest-search",
 "0::command-r-search","0::command-r-plus-search"
   ],
   "availableReasonModels": [
