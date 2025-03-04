@@ -13,7 +13,7 @@
     "02::mistral-large-2411",
     "02::grok-2",
     "02::gemini-2.0",
-    "beta::microsoft/phi-4",
+    "beta::microsoft/phi-4"
 
   ],
   "availableSearchModels": [
