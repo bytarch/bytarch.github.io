@@ -1,4 +1,15 @@
 [
+  {
+  "product_id": 0,
+  "name": "Free Tier",
+  "description": "Unlock the world of AI with the Free Tier. Perfect for those just starting or looking for quick, essential AI interactions without the commitment.\n\nKey Features:\n- Access to tokens for seamless AI use\n- Full access to Deminji Suite\n- A comprehensive set of AI tools\n- YouTube Video Summarizer for quick content insights\n- Support for multiple AI models\n\nIdeal For:\n- Beginners eager to explore AI technology\n- Casual users seeking quick, easy AI interactions\n- Budget-conscious professionals\n- First-time explorers of AI tools\n\nBest Suited For: Short, focused tasks that require essential AI capabilities. Whether you're a newbie or need a no-cost solution for simple tasks, the Free Tier is the perfect starting point.\n\nMessage Limit: 5 messages/requests every 4 hours. These can be used for:\n- Image generation\n- Chat image processing\n- API calls in roo-cline\n- Any external services",
+  "price": 0,
+  "type": "Free",
+  "tokens": null,
+  "subscription_days": null,
+  "created_at": "2025-2-20 15:11:39"
+},
+
     {
         "product_id": 1,
         "name": "Basic Access",
