@@ -9,10 +9,6 @@
     "69::cognitivecomputations/dolphin3.0-r1-mistral-24b",
     "bytarch::deepseek-v3",
     "closeai::gpt-4o-mini",
-    "02::mistral-large-latest",
-    "02::mistral-large-2411",
-    "02::grok-2",
-    "02::gemini-2.0",
     "beta::microsoft/phi-4"
 
   ],
@@ -21,7 +17,6 @@
 "0::command-r-search","0::command-r-plus-search"
   ],
   "availableReasonModels": [
-    "02::deepseek-r1-distill-llama-70b",
     "beta::deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
     "beta::deepseek-ai/DeepSeek-R1",
     "bytarch::deepseek-r1",
