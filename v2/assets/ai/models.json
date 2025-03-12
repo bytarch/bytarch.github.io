@@ -210,12 +210,6 @@
     "description": ""
   },
   {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "02::llama",
-    "description": ""
-  },  
-  {
     "label_part1": "research",
     "label_part2": "research",
     "value": "research::research",
@@ -501,42 +495,6 @@
     "label_part1": "",
     "label_part2": "",
     "value": "00::deepseek-r1-distill-qwen-32b",
-    "description": ""
-  },
-  {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "02::gemini-thinking",
-    "description": ""
-  },
-  {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "02::deepseek-r1-distill-llama-70b",
-    "description": ""
-  },
-  {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "02::claude-3-opus",
-    "description": ""
-  },
-  {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "02::gemini-2.0",
-    "description": ""
-  },
-  {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "02::mistral-large-latest",
-    "description": ""
-  },  
-  {
-    "label_part1": "",
-    "label_part2": "",
-    "value": "02::mistral-large-2411",
     "description": ""
   }
 ]
