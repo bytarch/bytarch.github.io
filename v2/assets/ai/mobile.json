@@ -1,39 +1,33 @@
 {
   "availableChatModels": [
-    "closeai::o3-mini",
-    "501::chatgpt-pro",
-    "501::searchgpt",
-    "net::pro",
-    "net::air",
-    "501::gpt-4o-mini",
-    "69::cognitivecomputations/dolphin3.0-r1-mistral-24b",
-    "bytarch::deepseek-v3",
-    "closeai::gpt-4o-mini",
-    "beta::microsoft/phi-4"
+"AA::phi-4","AA::mixtral-small-28b","AA::Phind-70B","AA::chat-model-large","AA::command-r-plus","AA::command-r7b-12-2024",
+ "net::pro","net::air","AA::phi-4","AA::gpt-4o","AA::gpt-4o-mini","AA::GPT-4o","AA::GPT-4o-mini","AA::gpt-4o-mini-2024-07-18","AA::deepseek-chat","AA::gemini",
+ "AA::deepseek-v3", "AA::deepseek-ai/DeepSeek-V3-Turbo","AA::deepseek-ai/DeepSeek-V3",
+  "bytarch::deepseek-v3","closeai::gpt-4o-mini","AA::chatgpt-4o-latest","AA::microsoft/phi-4","AA::microsoft/Phi-4-multimodal-instruct","AA::gemini-2.0",,"AA::o3-mini-medium",
+  "AA::phi-4-multimodal","AA::Phind-405B","AA::elmo","AA::o3-mini","AA::phi-4-multi","AA::qvq-72b","AA::gemini","AA::o3-mini","AA::o3-mini-low"
 
   ],
   "availableSearchModels": [
-    "research::research","genie::Copilot","0::command-latest-search",
-"0::command-r-search","0::command-r-plus-search"
+    "research::research","AA::Copilot",
+"501::searchgpt","AA::gemini-pro-realtime","genie::Copilot"
   ],
   "availableReasonModels": [
-    "beta::deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-    "beta::deepseek-ai/DeepSeek-R1",
-    "bytarch::deepseek-r1",
-    "bytarch::deepseek-reason",
-    "69::deepseek/deepseek-r1",
-    "genie::deepseek-ai/DeepSeek-R1|Glider",
-    "AA::deepseek-r1-distill-llama-70b",
-    "0::deepseek-r1"
+  "AA::qwen-qwq-32b",
+  "AA::deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+  "AA::deepseek-ai/DeepSeek-R1-Turbo",  "AA::deepseek-r1",
+  "AA::deepseek-r1","AA::deepseek-reason",
+  "AA::deepseek-r1-distill-llama-70b","AA::deepseek-ai/DeepSeek-R1"
   ],
   "availableImageDetectModels": [
-    "69::qwen/qwen2.5-vl-72b-instruct",
-    "69::qwen/qwen-vl-plus",
-    "501::chatgpt-pro"
+  "69::qwen/qwen2.5-vl-72b-instruct",
+  "69::qwen/qwen-vl-plus","AA::qwen/qwen2.5-vl-72b-instruct",
+  "AA::qwen/qwen-vl-plus",
+  "AA::gpt-4o",
+  "AA::qwen-qvq-72b-preview"
   ],
   "availableImageModels": [
-    "502::flux",
-    "img::gen"
+"502::Flux Pro Ultra","502::Flux Realism","502::dall-e-3",
+ "img::gen"
   ],
   "availableResearchModels": [
     "deepresearcher::v1"
