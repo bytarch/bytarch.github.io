@@ -1,10 +1,10 @@
 {
   "availableChatModels": [
-"AA::phi-4","AA::mixtral-small-28b","AA::Phind-70B","AA::chat-model-large","AA::command-r-plus","AA::command-r7b-12-2024",
- "net::pro","net::air","AA::phi-4","AA::gpt-4o","AA::gpt-4o-mini","AA::GPT-4o","AA::GPT-4o-mini","AA::gpt-4o-mini-2024-07-18","AA::deepseek-chat","AA::gemini",
+"AA::phi-4","AA::mixtral-small-28b","AA::Phind-70B","AA::chat-model-large","AA::command-r-plus",
+ "net::pro","net::air","AA::phi-4","AA::gpt-4o","AA::gpt-4o-mini","AA::gpt-4o-mini-2024-07-18","AA::deepseek-chat","AA::gemini",
  "AA::deepseek-v3", "AA::deepseek-ai/DeepSeek-V3-Turbo","AA::deepseek-ai/DeepSeek-V3",
-  "bytarch::deepseek-v3","closeai::gpt-4o-mini","AA::chatgpt-4o-latest","AA::microsoft/phi-4","AA::microsoft/Phi-4-multimodal-instruct","AA::gemini-2.0",,"AA::o3-mini-medium",
-  "AA::phi-4-multimodal","AA::Phind-405B","AA::elmo","AA::o3-mini","AA::phi-4-multi","AA::qvq-72b","AA::gemini","AA::o3-mini","AA::o3-mini-low"
+  "bytarch::deepseek-v3","closeai::gpt-4o-mini","AA::microsoft/phi-4","AA::microsoft/Phi-4-multimodal-instruct","AA::gemini-2.0",
+"AA::Phind-405B","AA::elmo","AA::o3-mini","AA::phi-4-multi","AA::gemini"
 
   ],
   "availableSearchModels": [
