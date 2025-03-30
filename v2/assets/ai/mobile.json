@@ -36,7 +36,6 @@
     "gptzero::detect-intent"
   ],
   "availableTutors": [
-    "501::tutor",
     "tutor::tutor"
   ],
   "availableCs": [
