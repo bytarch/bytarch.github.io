@@ -1,22 +1,30 @@
 {
   "availableChatModels": [
-"AA::phi-4","AA::mixtral-small-28b","AA::Phind-70B","AA::chat-model-large","AA::command-r-plus",
- "net::pro","net::air","AA::phi-4","AA::gpt-4o","AA::gpt-4o-mini","AA::gpt-4o-mini-2024-07-18","AA::deepseek-chat","AA::gemini",
- "AA::deepseek-v3", "AA::deepseek-ai/DeepSeek-V3-Turbo","AA::deepseek-ai/DeepSeek-V3",
-  "bytarch::deepseek-v3","closeai::gpt-4o-mini","AA::microsoft/phi-4","AA::microsoft/Phi-4-multimodal-instruct","AA::gemini-2.0",
-"AA::Phind-405B","AA::elmo","AA::o3-mini","AA::phi-4-multi","AA::gemini"
+ "AA::phi-4", "AA::Phind-70B", "AA::command-r-plus",
+  "net::pro", "net::air", "AA::phi-4", "AA::gpt-4o", "AA::gpt-4o-mini-2024-07-18",
+  "AA::deepseek-chat", "AA::gemini", "AA::Claude-sonnet-3.7", "AA::o3-mini", "AA::o1",
+  "AA::deepseek-v3", "AA::deepseek-ai/DeepSeek-V3-Turbo", "AA::deepseek-ai/DeepSeek-V3",
+  "bytarch::deepseek-v3", "AA::microsoft/phi-4", "AA::microsoft/Phi-4-multimodal-instruct",
+  "AA::gemini-2.0", "AA::Phind-405B", "AA::elmo", "AA::phi-4-multi",
+  "AA::Qwen-Max", "AA::Qwen-Turbo", "AA::Deepseek-v3-0324","AA::Deepseek-v3",
+  "AA::meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8","AA::meta-llama/Llama-4-Scout-17B-16E-Instruct",
+  "AA::meta-llama/llama-4-maverick","AA::meta-llama/llama-4-scout","AA::gpt-4.1-nano-2025-04-14"
 
   ],
   "availableSearchModels": [
-    "research::research","AA::Copilot",
-"501::searchgpt","AA::gemini-pro-realtime","genie::Copilot"
+  "research::research","AA::gemini",
+"AA::searchgpt"
   ],
   "availableReasonModels": [
-  "AA::qwen-qwq-32b",
+ "AA::qwen-qwq-32b",
   "AA::deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-  "AA::deepseek-ai/DeepSeek-R1-Turbo",  "AA::deepseek-r1",
-  "AA::deepseek-r1","AA::deepseek-reason",
-  "AA::deepseek-r1-distill-llama-70b","AA::deepseek-ai/DeepSeek-R1"
+  "AA::deepseek-ai/DeepSeek-R1-Turbo",  
+  "AA::deepseek-r1",
+  "AA::deepseek-r1",
+  "AA::deepseek-reason",
+  "AA::deepseek-r1-distill-llama-70b",
+  "AA::deepseek-ai/DeepSeek-R1",
+  "AA::Deepseek-R1"
   ],
   "availableImageDetectModels": [
   "69::qwen/qwen2.5-vl-72b-instruct",
