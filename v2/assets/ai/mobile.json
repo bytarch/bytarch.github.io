@@ -8,7 +8,7 @@
   "AA::gemini-2.0", "AA::Phind-405B", "AA::elmo", "AA::phi-4-multi",
   "AA::Qwen-Max", "AA::Qwen-Turbo", "AA::Deepseek-v3-0324","AA::Deepseek-v3",
   "AA::meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8","AA::meta-llama/Llama-4-Scout-17B-16E-Instruct",
-  "AA::meta-llama/llama-4-maverick","AA::meta-llama/llama-4-scout","AA::gpt-4.1-nano-2025-04-14"
+  "AA::meta-llama/llama-4-maverick","AA::meta-llama/llama-4-scout","AA::gpt-4.1-nano-2025-04-14","AA::gpt-4.1"
 
   ],
   "availableSearchModels": [
