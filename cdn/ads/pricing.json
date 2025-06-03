@@ -1,124 +1,29 @@
 [
   {
-  "product_id": 0,
-  "name": "Free Tier",
-  "description": "Unlock the world of AI with the Free Tier. Perfect for those just starting or looking for quick, essential AI interactions without the commitment.\n\nKey Features:\n- Access to tokens for seamless AI use\n- Full access to Deminji Suite\n- A comprehensive set of AI tools\n- YouTube Video Summarizer for quick content insights\n- Support for multiple AI models\n\nIdeal For:\n- Beginners eager to explore AI technology\n- Casual users seeking quick, easy AI interactions\n- Budget-conscious professionals\n- First-time explorers of AI tools\n\nBest Suited For: Short, focused tasks that require essential AI capabilities. Whether you're a newbie or need a no-cost solution for simple tasks, the Free Tier is the perfect starting point.\n\nMessage Limit: 5 messages/requests every 4 hours. These can be used for:\n- Image generation\n- Chat image processing\n- & FREE MODE  on Genie",
-  "price": 0,
-  "type": "Free",
-  "tokens": null,
-  "subscription_days": null,
-  "created_at": "2025-2-20 15:11:39"
-},
-
-    {
-        "product_id": 1,
-        "name": "Basic Access",
-        "description": "Your Gateway to AI Exploration\n\nKey Features:\n- Tokens\n- Deminji Suite Access\n- Comprehensive AI Tools\n- YouTube Video Summarizer\n- Multi-Model Support\n\nIdeal For:\n- Beginners in AI technology\n- Casual users seeking quick interactions\n- Budget-conscious professionals\n- First-time AI explorers\n\nBest Suited For: Short, focused tasks with essential AI capabilities",
-        "price": 11.99,
-        "type": "Tokens",
-        "tokens": 1205,
-        "subscription_days": null,
-        "created_at": "2024-10-09 15:11:39"
-    },
-    {
-        "product_id": 2,
-        "name": "Standard Access",
-        "description": "Elevate Your AI Experience\n\nEnhanced Features:\n- Premium Tokens\n- Advanced Deminji Suite\n- Comprehensive AI Tools\n- Expanded Video Summarization\n- All AI Models Unlocked\n- Discord Community Access\n\nRecommended For:\n- Students\n- Professional Researchers\n- Content Creators\n- Knowledge Workers\n- Advanced AI Interactions\n\nUnlock More Possibilities with Expanded Capabilities",
-        "price": 17.50,
-        "type": "Tokens",
-        "tokens": 1893,
-        "subscription_days": null,
-        "created_at": "2024-10-09 15:13:32"
-    },
-    {
-        "product_id": 3,
-        "name": "Student Plan",
-        "description": "Ultimate Academic Companion\n\nComprehensive Package:\n- Expert Tokens\n- Full Deminji Suite Access\n- Advanced AI Tools\n- YouTube Video Summarizer\n- Complete Model Access\n- Discord Community Support\n- 24/7 WhatsApp Assistance\n\nDesigned for:\n- University Students\n- Academic Researchers\n- Professional Scholars\n- Intensive Learning Environments\n\nMaximize Your Academic Potential",
-        "price": 30.00,
-        "type": "Tokens",
-        "tokens": 2830,
-        "subscription_days": null,
-        "created_at": "2024-10-09 15:15:25"
-    },
-    {
-        "product_id": 4,
-        "name": "Tier 1 - Regular",
-        "description": "Unlock Full Access to Our AI Platform for 7 Days!\n\nKey Features:\n- 7 Days of Unlimited Exploration\n- Complete Deminji Suite\n- Access to All AI Models\n- Unlimited Video Summarization\n- Discord Community Access\n\nPerfect for:\n- New AI Enthusiasts\n- Short-Term Research Projects\n- Exploring Our AI Platform\n- Testing Our Comprehensive Tools\n\nWhy Choose Tier 1?\n- Ideal for newcomers and those looking to dive into advanced AI tools for a limited time.",
-        "price": 7.75,
-        "type": "Subscription",
-        "tokens": null,
-        "subscription_days": 7,
-        "created_at": "2024-10-09 15:17:18"
-    },
-    {
-        "product_id": 5,
-        "name": "Tier 2 Plus",
-        "description": "Unlock Premium AI Capabilities with 14 Days of Comprehensive Access\n\nExclusive Features:\n- 14 Days of Unlimited Access to All Services\n- Bonus Tokens for Added Flexibility\n- Full Deminji Suite with Advanced Tools\n- Comprehensive Video Summarization\n- Unrestricted Access to All AI Models\n- Integration with Our Discord Community\n- 24/7 WhatsApp Support for Immediate Assistance\n\nPerfect for:\n- Professional Researchers\n- Dedicated Learners & Students\n- Project-Based Work & Content Creation\n- Those Seeking Continuous AI Support for Enhanced Productivity\n\nElevate Your AI Experience in Just 14 Days with Tier 2 Plus.",
-        "price": 17.5,
-        "type": "Subscription",
-        "tokens": 250,
-        "subscription_days": 14,
-        "created_at": "2024-10-09 15:19:11"
-    },
-    {
-        "product_id": 6,
-        "name": "Tier 3 Pro",
-        "description": "Master Advanced AI Tools with Extended 30-Day Access\n\nPremium Features:\n- 30 Days of Comprehensive, Unrestricted Access\n- Full Access to the Deminji Suite with Advanced Tools\n- All AI Models Unlocked for Complete Mastery\n- Advanced Video Summarization for Enhanced Productivity\n- Integration with Our Exclusive Discord Community\n- 24/7 Premium Support for Continuous Assistance\n\nTailored for:\n- Long-Term Research Projects\n- Academic Scholars & Researchers\n- Continuous Learning Environments & Innovation\n- Professionals Seeking Maximum Flexibility and AI Expertise\n\nYour Ultimate AI Journey Starts Here – Unlock Unmatched Support and Flexibility with Tier 3 Pro.",
-        "price": 27.99,
-        "type": "Subscription",
-        "tokens": null,
-        "subscription_days": 30,
-        "created_at": "2024-10-09 15:21:04"
-    },
-      {
-        "product_id": 7,
-        "name": "Tier 4 Deluxe",
-        "description": "Master Advanced AI Tools with Extended 60-Day Access\n\nPremium Features:\n- 60 Days of Comprehensive, Unrestricted Access\n- Full Access to the Deminji Suite with Advanced Tools\n- All AI Models Unlocked for Complete Mastery\n- Advanced Video Summarization for Enhanced Productivity\n- Integration with Our Exclusive Discord Community\n- 24/7 Premium Support for Continuous Assistance\n\nTailored for:\n- Long-Term Research Projects\n- Academic Scholars & Researchers\n- Continuous Learning Environments & Innovation\n- Professionals Seeking Maximum Flexibility and AI Expertise\n\nYour Ultimate AI Journey Starts Here – Unlock Unmatched Support and Flexibility.",
-        "price": 53.75,
-        "type": "Subscription",
-        "tokens": null,
-        "subscription_days": 60,
-        "created_at": "2024-10-09 15:21:04"
-    },
-      {
-        "product_id": 8,
-        "name": "Tier 5 Nitro",
-        "description": "Master Advanced AI Tools with Extended 180-Day Access\n\nPremium Features:\n- 180 Days of Comprehensive, Unrestricted Access\n- Full Access to the Deminji Suite with Advanced Tools\n- All AI Models Unlocked for Complete Mastery\n- Advanced Video Summarization for Enhanced Productivity\n- Integration with Our Exclusive Discord Community\n- 24/7 Premium Support for Continuous Assistance\n\nTailored for:\n- Long-Term Research Projects\n- Academic Scholars & Researchers\n- Continuous Learning Environments & Innovation\n- Professionals Seeking Maximum Flexibility and AI Expertise\n\nYour Ultimate AI Journey Starts Here – Unlock Unmatched Support and Flexibility.",
-        "price": 159.00,
-        "type": "Subscription",
-        "tokens": null,
-        "subscription_days": 180,
-        "created_at": "2024-10-09 15:21:04"
-    },
-    {
-    "product_id": 9,
-    "name": "Beginner Tier",
-    "description": "Get Started with Advanced AI Tools – Perfect for Beginners!\n\nFeatures:\n- 2 Days of Full Access to the Deminji AI Suite\n- Explore All AI Models with No Restrictions\n- Advanced Video Summarization for Quick Insights\n- Access to Our Exclusive Discord Community\n- 24/7 Support to Guide You Every Step of the Way\n\nIdeal for:\n- Beginners Exploring AI Tools\n- Short-Term Research & Learning\n- Professionals Testing AI Capabilities\n\nJumpstart Your AI Journey Today – No Long-Term Commitment Needed!",
-    "price": 2.50,
-    "type": "Subscription",
-    "tokens": null,
-    "subscription_days": 2,
-    "created_at": "2024-10-09 15:21:04"
-},
+    "product_id": 0,
+    "name": "Free Tier",
+    "description": "Unlock the world of AI with the Free Tier. Perfect for those just starting or looking for quick, essential AI interactions without the commitment.\n\nKey Features:\n- Full access to Deminji Suite\n- A comprehensive set of AI tools\n- YouTube Video Summarizer for quick content insights\n- Support for multiple AI models\n\nIdeal For:\n- Beginners eager to explore AI technology\n- Casual users seeking quick, easy AI interactions\n- Budget-conscious professionals\n- First-time explorers of AI tools\n\nBest Suited For: Short, focused tasks that require essential AI capabilities. Whether you're a newbie or need a no-cost solution for simple tasks, the Free Tier is the perfect starting point.\n\nMessage Limit: 5 messages/requests every 4 hours.",
+    "price": 0,
+    "type": "Free",
+    "subscription_days": null,
+    "created_at": "2025-02-20 15:11:39"
+  },
   {
-        "product_id": 10,
-        "name": "Custom Tier",
-        "description": "Build Your Own AI Experience – Tailored to Your Needs!\n\nFeatures:\n- Fully Customizable Subscription Length\n- Choose the AI Models & Tools You Need\n- Flexible Pricing Based on Your Selection\n- Personalized Support & Guidance\n\nIdeal for:\n- Users with Specific AI Needs\n- Businesses & Teams Looking for Custom AI Solutions\n- Professionals Seeking a Tailored AI Experience\n\nContact Us to Create Your Perfect AI Plan!",
-        "price": "Varies",
-        "type": "Subscription",
-        "tokens": null,
-        "subscription_days": "Custom",
-        "created_at": "2024-10-09 15:21:04"
-    },
- {
-        "product_id": 11,
-        "name": "Custom Plan",
-        "description": "Personalized Academic AI Support – Designed for Your Needs!\n\nFeatures:\n- Flexible Token Packages\n- Custom Subscription Length (If Needed)\n- Access to AI Models & Research Tools\n- Personalized Support & Assistance\n\nIdeal for:\n- Students with Specific AI & Research Needs\n- Academic Institutions Looking for Bulk Plans\n- Scholars Needing a Tailored AI Experience\n\nReach Out to Customize Your Academic Plan Today!",
-        "price": "Varies",
-        "type": "Tokens",
-        "tokens": "Custom",
-        "subscription_days": null,
-        "created_at": "2024-10-09 15:15:25"
-    }
-
+    "product_id": 1,
+    "name": "7-Day Trial",
+    "description": "Experience the full capabilities of our AI platform with a 7-day trial.\n\nFeatures:\n- Complete access to the Deminji Suite\n- All AI models unlocked\n- Unlimited video summarization\n- Integration with our exclusive Discord community\n- 24/7 support for immediate assistance\n\nIdeal for:\n- New AI enthusiasts\n- Short-term research projects\n- Exploring our AI platform\n- Testing our comprehensive tools",
+    "price": 4.99,
+    "type": "Subscription",
+    "subscription_days": 7,
+    "created_at": "2025-06-02 22:33:22"
+  },
+  {
+    "product_id": 2,
+    "name": "Monthly Access",
+    "description": "Unlock premium AI capabilities with a monthly subscription.\n\nFeatures:\n- 30 days of comprehensive, unrestricted access\n- Full access to the Deminji Suite with advanced tools\n- All AI models unlocked for complete mastery\n- Advanced video summarization for enhanced productivity\n- Integration with our exclusive Discord community\n- 24/7 premium support for continuous assistance\n\nTailored for:\n- Long-term research projects\n- Academic scholars & researchers\n- Continuous learning environments & innovation\n- Professionals seeking maximum flexibility and AI expertise",
+    "price": 14.99,
+    "type": "Subscription",
+    "subscription_days": 30,
+    "created_at": "2025-06-02 22:33:22"
+  }
 ]
