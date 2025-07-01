@@ -2,7 +2,7 @@
   {
     "product_id": 0,
     "name": "Free Tier",
-    "description": "Unlock the world of AI with the Free Tier. Perfect for those just starting or looking for quick, essential AI interactions without the commitment.\n\nKey Features:\n- Full access to Deminji Suite\n- A comprehensive set of AI tools\n- YouTube Video Summarizer for quick content insights\n- Support for multiple AI models\n\nIdeal For:\n- Beginners eager to explore AI technology\n- Casual users seeking quick, easy AI interactions\n- Budget-conscious professionals\n- First-time explorers of AI tools\n\nBest Suited For: Short, focused tasks that require essential AI capabilities. Whether you're a newbie or need a no-cost solution for simple tasks, the Free Tier is the perfect starting point.\n\nMessage Limit: 5 messages/requests every 4 hours.",
+    "description": "Not Available",
     "price": 0,
     "type": "Free",
     "subscription_days": null,
@@ -25,5 +25,42 @@
     "type": "Subscription",
     "subscription_days": 30,
     "created_at": "2025-06-02 22:33:22"
+  },
+  {
+  "product_id": 3,
+  "name": "Developer Access",
+  "description": "Perfect for developers who want to use the API exclusively through RooCode.\n\nFeatures:\n- Unlimited access via RooCode's API integration\n- Full support for site features like context condensing and custom instructions accessible through RooCode\n- Community forum support via RooCode\n\nTailored for:\n- Individual developers and hobbyists building with RooCode\n- Solo projects, prototypes, and experimentation without commitment",
+  "price": 49.99,
+  "type": "dev",
+  "subscription_days": 30,
+  "created_at": "2025-07-01 00:00:00"
+},
+   {
+    "product_id": 5,
+    "name": "Advance Access",
+    "description": "Unlock unlimited API access with our Advance plan.\n\nFeatures:\n- Unlimited API calls for full flexibility\n- Priority support during business hours\n- Access to advanced API endpoints\n- Integration with Discord developer community\n\nTailored for:\n- Growing projects ready for production\n- Freelancers & small teams needing reliability\n- Use-cases demanding sustained API usage",
+    "price": null,
+    "type": "advance",
+    "subscription_days": 30,
+    "created_at": "2025-06-02 22:33:22"
+  },
+  {
+    "product_id": 6,
+    "name": "Enterprise Access",
+    "description": "Enterprise-grade unlimited API access for mission-critical applications.\n\nFeatures:\n- Unlimited API calls with high throughput\n- SLA-backed support & uptime guarantees\n- Dedicated account manager\n- Enhanced security compliance controls\n- Full access to advanced and internal-only API routes\n\nTailored for:\n- Large businesses & enterprise teams\n- Applications in production with scale requirements\n- Organizations needing compliance, reliability, and support",
+    "price": null,
+    "type": "enterprise",
+    "subscription_days": 30,
+    "created_at": "2025-06-02 22:33:22"
+  },
+  {
+    "product_id": 7,
+    "name": "Partner Access",
+    "description": "Strategic unlimited API access & co‑development partnership.\n\nFeatures:\n- Unlimited API calls and full platform access\n- Joint go-to-market collaboration\n- Co‑branding & marketing support\n- Technical integration planning & priority engineering access\n- Executive liaison and roadmap influence\n\nTailored for:\n- Official partners & resellers\n- Software vendors building deep integrations\n- Channels requiring custom support and partnership alignment",
+    "price": null,
+    "type": "partner",
+    "subscription_days": 30,
+    "created_at": "2025-06-02 22:33:22"
   }
+
 ]
