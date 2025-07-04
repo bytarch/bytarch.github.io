@@ -31,7 +31,7 @@
     "name": "Developer Access",
     "description": "Perfect for developers who want to use the API exclusively through RooCode.\n\nFeatures:\n- Unlimited access via RooCode's API integration\n- Full support for site features like context condensing and custom instructions accessible through RooCode\n- Community forum support via RooCode\n\nTailored for:\n- Individual developers and hobbyists building with RooCode\n- Solo projects, prototypes, and experimentation without commitment",
     "price": 78.75,
-    "type": "Subscription",
+    "type": "dev",
     "subscription_days": 30,
     "created_at": "2025-07-01 00:00:00"
   },
@@ -49,7 +49,7 @@
     "name": "Advance Access",
     "description": "Unlock unlimited API access with our Advance plan.\n\nFeatures:\n- Unlimited API calls for full flexibility\n- Priority support during business hours\n- Access to advanced API endpoints\n- Integration with Discord developer community\n\nTailored for:\n- Growing projects ready for production\n- Freelancers & small teams needing reliability\n- Use-cases demanding sustained API usage",
     "price": null,
-    "type": "Subscription",
+    "type": "advance",
     "subscription_days": 30,
     "created_at": "2025-06-02 22:33:22"
   },
@@ -58,7 +58,7 @@
     "name": "Enterprise Access",
     "description": "Enterprise-grade unlimited API access for mission-critical applications.\n\nFeatures:\n- Unlimited API calls with high throughput\n- SLA-backed support & uptime guarantees\n- Dedicated account manager\n- Enhanced security compliance controls\n- Full access to advanced and internal-only API routes\n\nTailored for:\n- Large businesses & enterprise teams\n- Applications in production with scale requirements\n- Organizations needing compliance, reliability, and support",
     "price": null,
-    "type": "Subscription",
+    "type": "enterprise",
     "subscription_days": 30,
     "created_at": "2025-06-02 22:33:22"
   },
@@ -67,7 +67,7 @@
     "name": "Partner Access",
     "description": "Strategic unlimited API access & co‑development partnership.\n\nFeatures:\n- Unlimited API calls and full platform access\n- Joint go-to-market collaboration\n- Co‑branding & marketing support\n- Technical integration planning & priority engineering access\n- Executive liaison and roadmap influence\n\nTailored for:\n- Official partners & resellers\n- Software vendors building deep integrations\n- Channels requiring custom support and partnership alignment",
     "price": null,
-    "type": "Subscription",
+    "type": "partner",
     "subscription_days": 30,
     "created_at": "2025-06-02 22:33:22"
   },
