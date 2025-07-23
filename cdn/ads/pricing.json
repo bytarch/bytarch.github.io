@@ -1,17 +1,17 @@
 [
   {
-    "product_id": 0,
-    "name": "Free Tier",
-    "description": "Available via Genie's free mode!",
-    "price": 0,
-    "type": "Free",
-    "subscription_days": null,
-    "created_at": "2025-02-20 15:11:39"
+  "product_id": 0,
+  "name": "Free Tier",
+  "description": "Available via Genie's free mode!\n\nTokens per month: 0\n\nNote: No reset options are available for this tier.",
+  "price": 0,
+  "type": "Free",
+  "subscription_days": null,
+  "created_at": "2025-02-20 15:11:39"
   },
   {
     "product_id": 1,
     "name": "7-Day Trial",
-    "description": "Experience the full capabilities of our AI platform with a 7-day trial.\n\nFeatures:\n- Complete access to the Deminji Suite\n- All AI models unlocked\n- Unlimited video summarization\n- Integration with our exclusive Discord community\n- 24/7 support for immediate assistance\n\nIdeal for:\n- New AI enthusiasts\n- Short-term research projects\n- Exploring our AI platform\n- Testing our comprehensive tools",
+    "description": "Experience the full capabilities of our AI platform with a 7-day trial.\n\nFeatures:\n- Complete access to the Deminji Suite\n- All AI models unlocked\n- Unlimited video summarization\n- Integration with our exclusive Discord community\n- 24/7 support for immediate assistance\n\nIdeal for:\n- New AI enthusiasts\n- Short-term research projects\n- Exploring our AI platform\n- Testing our comprehensive tools\n\nTokens per month: 10,000\n\n**Reset Options:**\n– Light Reset (25%): 2,500 tokens for $1.25\n– Half Reset (50%): 5,000 tokens for $2.50\n– Boost Reset (75%): 7,500 tokens for $3.74\n– Full Reset (100%): 10,000 tokens for $4.99",
     "price": 4.99,
     "type": "7-days",
     "subscription_days": 7,
@@ -20,7 +20,7 @@
   {
     "product_id": 2,
     "name": "Monthly Access",
-    "description": "Unlock premium AI capabilities with a monthly subscription.\n\nFeatures:\n- 30 days of comprehensive, unrestricted access\n- Full access to the Deminji Suite with advanced tools\n- All AI models unlocked for complete mastery\n- Advanced video summarization for enhanced productivity\n- Integration with our exclusive Discord community\n- 24/7 premium support for continuous assistance\n\nTailored for:\n- Long-term research projects\n- Academic scholars & researchers\n- Continuous learning environments & innovation\n- Professionals seeking maximum flexibility and AI expertise",
+    "description": "Unlock premium AI capabilities with a monthly subscription.\n\nFeatures:\n- 30 days of comprehensive, unrestricted access\n- Full access to the Deminji Suite with advanced tools\n- All AI models unlocked for complete mastery\n- Advanced video summarization for enhanced productivity\n- Integration with our exclusive Discord community\n- 24/7 premium support for continuous assistance\n\nTailored for:\n- Long-term research projects\n- Academic scholars & researchers\n- Continuous learning environments & innovation\n- Professionals seeking maximum flexibility and AI expertise\n\nTokens per month: 700,000\n\n**Reset Options:**\n– Light Reset (25%): 175,000 tokens for $3.75\n– Half Reset (50%): 350,000 tokens for $7.50\n– Boost Reset (75%): 525,000 tokens for $11.25\n– Full Reset (100%): 700,000 tokens for $14.99",
     "price": 14.99,
     "type": "sub-30",
     "subscription_days": 30,
@@ -29,7 +29,7 @@
   {
     "product_id": 8,
     "name": "All Access",
-    "description": "Comprehensive access to all Bytarch AI/Bytarch LLC platforms, including Genie, Sky, Genie Extension, and Genie Suite.",
+    "description": "Comprehensive access to all Bytarch AI/Bytarch LLC platforms, including Genie, Sky, Genie Extension, and Genie Suite.\n\nTokens per month: 200,000,000\n\n**Reset Options:**\n– Light Reset (25%): 50,000,000 tokens for $12.50\n– Half Reset (50%): 100,000,000 tokens for $25.00\n– Boost Reset (75%): 150,000,000 tokens for $37.50\n– Full Reset (100%): 200,000,000 tokens for $50.00",
     "price": 50.00,
     "type": "all-30",
     "subscription_days": 30,
@@ -38,7 +38,7 @@
   {
     "product_id": 9,
     "name": "Sky Monthly",
-    "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform.",
+    "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform.\n\nTokens per month: 900,000\n\n**Reset Options:**\n– Light Reset (25%): 225,000 tokens for $5.75\n– Half Reset (50%): 450,000 tokens for $11.50\n– Boost Reset (75%): 675,000 tokens for $17.25\n– Full Reset (100%): 900,000 tokens for $22.99",
     "price": 22.99,
     "type": "sky-30",
     "subscription_days": 30,
@@ -47,7 +47,7 @@
   {
     "product_id": 10,
     "name": "Sky Weekly",
-    "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform, for 7 days.",
+    "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform, for 7 days.\n\nTokens per month: 90,000\n\n**Reset Options:**\n– Light Reset (25%): 22,500 tokens for $2.00\n– Half Reset (50%): 45,000 tokens for $4.00\n– Boost Reset (75%): 67,500 tokens for $6.00\n– Full Reset (100%): 90,000 tokens for $7.99",
     "price": 7.99,
     "type": "sky-7",
     "subscription_days": 7,
@@ -56,7 +56,7 @@
   {
     "product_id": 3,
     "name": "Developer Access",
-    "description": "Perfect for developers who want to use the API exclusively through RooCode.\n\nFeatures:\n- Unlimited access via RooCode's API integration\n- Full support for site features like context condensing and custom instructions accessible through RooCode\n- Community forum support via RooCode\n\nTailored for:\n- Individual developers and hobbyists building with RooCode\n- Solo projects, prototypes, and experimentation without commitment",
+    "description": "Perfect for developers who want to use the API exclusively through RooCode.\n\nFeatures:\n- Unlimited access via RooCode's API integration\n- Full support for site features like context condensing and custom instructions accessible through RooCode\n- Community forum support via RooCode\n\nTailored for:\n- Individual developers and hobbyists building with RooCode\n- Solo projects, prototypes, and experimentation without commitment\n\nTokens per month: 500,000,000\n\n**Reset Options:**\n– Light Reset (25%): 125,000,000 tokens for $19.69\n– Half Reset (50%): 250,000,000 tokens for $39.38\n– Boost Reset (75%): 375,000,000 tokens for $59.06\n– Full Reset (100%): 500,000,000 tokens for $78.75",
     "price": 78.75,
     "type": "dev",
     "subscription_days": 30,
@@ -65,7 +65,7 @@
   {
     "product_id": 4,
     "name": "Designer Access",
-    "description": "Unlock advanced design capabilities with our Designer plan.\n\nFeatures:\n- Access to exclusive design tools and templates\n- Priority support for design-related queries\n- Integration with popular design software\n- Community forum for designers\n\nTailored for:\n- Graphic designers and UI/UX professionals\n- Creative agencies and design studios\n- Individuals focused on visual content creation",
+    "description": "Unlock advanced design capabilities with our Designer plan.\n\nFeatures:\n- Access to exclusive design tools and templates\n- Priority support for design-related queries\n- Integration with popular design software\n- Community forum for designers\n\nTailored for:\n- Graphic designers and UI/UX professionals\n- Creative agencies and design studios\n- Individuals focused on visual content creation\n\nTokens per month: 500,000\n\n**Reset Options:**\n– Light Reset (25%): 125,000 tokens\n– Half Reset (50%): 250,000 tokens\n– Boost Reset (75%): 375,000 tokens\n– Full Reset (100%): 500,000 tokens",
     "price": null,
     "type": "design-30",
     "subscription_days": 30,
@@ -74,7 +74,7 @@
   {
     "product_id": 5,
     "name": "Advance Access",
-    "description": "Unlock unlimited API access with our Advance plan.\n\nFeatures:\n- Unlimited API calls for full flexibility\n- Priority support during business hours\n- Access to advanced API endpoints\n- Integration with Discord developer community\n\nTailored for:\n- Growing projects ready for production\n- Freelancers & small teams needing reliability\n- Use-cases demanding sustained API usage",
+    "description": "Unlock unlimited API access with our Advance plan.\n\nFeatures:\n- Unlimited API calls for full flexibility\n- Priority support during business hours\n- Access to advanced API endpoints\n- Integration with Discord developer community\n\nTailored for:\n- Growing projects ready for production\n- Freelancers & small teams needing reliability\n- Use-cases demanding sustained API usage\n\nTokens per month: 1,000,000\n\n**Reset Options:**\n– Light Reset (25%): 250,000 tokens\n– Half Reset (50%): 500,000 tokens\n– Boost Reset (75%): 750,000 tokens\n– Full Reset (100%): 1,000,000 tokens",
     "price": null,
     "type": "advance",
     "subscription_days": 30,
@@ -83,7 +83,7 @@
   {
     "product_id": 6,
     "name": "Enterprise Access",
-    "description": "Enterprise-grade unlimited API access for mission-critical applications.\n\nFeatures:\n- Unlimited API calls with high throughput\n- SLA-backed support & uptime guarantees\n- Dedicated account manager\n- Enhanced security compliance controls\n- Full access to advanced and internal-only API routes\n\nTailored for:\n- Large businesses & enterprise teams\n- Applications in production with scale requirements\n- Organizations needing compliance, reliability, and support",
+    "description": "Enterprise-grade unlimited API access for mission-critical applications.\n\nFeatures:\n- Unlimited API calls with high throughput\n- SLA-backed support & uptime guarantees\n- Dedicated account manager\n- Enhanced security compliance controls\n- Full access to advanced and internal-only API routes\n\nTailored for:\n- Large businesses & enterprise teams\n- Applications in production with scale requirements\n- Organizations needing compliance, reliability, and support\n\nTokens per month: 1,500,000\n\n**Reset Options:**\n– Light Reset (25%): 375,000 tokens\n– Half Reset (50%): 750,000 tokens\n– Boost Reset (75%): 1,125,000 tokens\n– Full Reset (100%): 1,500,000 tokens",
     "price": null,
     "type": "enterprise",
     "subscription_days": 30,
@@ -92,7 +92,7 @@
   {
     "product_id": 7,
     "name": "Partner Access",
-    "description": "Strategic unlimited API access & co‑development partnership.\n\nFeatures:\n- Unlimited API calls and full platform access\n- Joint go-to-market collaboration\n- Co‑branding & marketing support\n- Technical integration planning & priority engineering access\n- Executive liaison and roadmap influence\n\nTailored for:\n- Official partners & resellers\n- Software vendors building deep integrations\n- Channels requiring custom support and partnership alignment",
+    "description": "Strategic unlimited API access & co‑development partnership.\n\nFeatures:\n- Unlimited API calls and full platform access\n- Joint go-to-market collaboration\n- Co‑branding & marketing support\n- Technical integration planning & priority engineering access\n- Executive liaison and roadmap influence\n\nTailored for:\n- Official partners & resellers\n- Software vendors building deep integrations\n- Channels requiring custom support and partnership alignment\n\nTokens per month: 2,000,000\n\n**Reset Options:**\n– Light Reset (25%): 500,000 tokens\n– Half Reset (50%): 1,000,000 tokens\n– Boost Reset (75%): 1,500,000 tokens\n– Full Reset (100%): 2,000,000 tokens",
     "price": null,
     "type": "partner",
     "subscription_days": 30,
