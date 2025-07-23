@@ -2,7 +2,7 @@
   {
     "product_id": 0,
     "name": "Free Tier",
-    "description": "Not Available",
+    "description": "Available via Genie's free mode!",
     "price": 0,
     "type": "Free",
     "subscription_days": null,
@@ -13,7 +13,7 @@
     "name": "7-Day Trial",
     "description": "Experience the full capabilities of our AI platform with a 7-day trial.\n\nFeatures:\n- Complete access to the Deminji Suite\n- All AI models unlocked\n- Unlimited video summarization\n- Integration with our exclusive Discord community\n- 24/7 support for immediate assistance\n\nIdeal for:\n- New AI enthusiasts\n- Short-term research projects\n- Exploring our AI platform\n- Testing our comprehensive tools",
     "price": 4.99,
-    "type": "Subscription",
+    "type": "7-days",
     "subscription_days": 7,
     "created_at": "2025-06-02 22:33:22"
   },
@@ -22,7 +22,7 @@
     "name": "Monthly Access",
     "description": "Unlock premium AI capabilities with a monthly subscription.\n\nFeatures:\n- 30 days of comprehensive, unrestricted access\n- Full access to the Deminji Suite with advanced tools\n- All AI models unlocked for complete mastery\n- Advanced video summarization for enhanced productivity\n- Integration with our exclusive Discord community\n- 24/7 premium support for continuous assistance\n\nTailored for:\n- Long-term research projects\n- Academic scholars & researchers\n- Continuous learning environments & innovation\n- Professionals seeking maximum flexibility and AI expertise",
     "price": 14.99,
-    "type": "Subscription",
+    "type": "sub-30",
     "subscription_days": 30,
     "created_at": "2025-06-02 22:33:22"
   },
@@ -31,7 +31,7 @@
     "name": "All Access",
     "description": "Comprehensive access to all Bytarch AI/Bytarch LLC platforms, including Genie, Sky, Genie Extension, and Genie Suite.",
     "price": 50.00,
-    "type": "Subscription",
+    "type": "all-30",
     "subscription_days": 30,
     "created_at": "2025-07-04 12:14:00"
   },
@@ -40,7 +40,7 @@
     "name": "Sky Monthly",
     "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform.",
     "price": 22.99,
-    "type": "Subscription",
+    "type": "sky-30",
     "subscription_days": 30,
     "created_at": "2025-07-04 12:14:00"
   },
@@ -49,7 +49,7 @@
     "name": "Sky Weekly",
     "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform, for 7 days.",
     "price": 7.99,
-    "type": "Subscription",
+    "type": "sky-7",
     "subscription_days": 7,
     "created_at": "2025-07-06 10:18:00"
   },
@@ -67,7 +67,7 @@
     "name": "Designer Access",
     "description": "Unlock advanced design capabilities with our Designer plan.\n\nFeatures:\n- Access to exclusive design tools and templates\n- Priority support for design-related queries\n- Integration with popular design software\n- Community forum for designers\n\nTailored for:\n- Graphic designers and UI/UX professionals\n- Creative agencies and design studios\n- Individuals focused on visual content creation",
     "price": null,
-    "type": "Subscription",
+    "type": "design-30",
     "subscription_days": 30,
     "created_at": "2025-07-04 12:14:00"
   },
