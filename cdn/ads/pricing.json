@@ -56,5 +56,78 @@
     "currency": "BZD",
     "discounted": true,
     "original_price": 7.99
+  },
+
+  {
+    "product_id": 3,
+    "name": "Developer Access",
+    "description": "Perfect for developers who want to use the API exclusively through RooCode.\n\nFeatures:\n- Unlimited access via RooCode's API integration\n- Full support for site features like context condensing and custom instructions accessible through RooCode\n- Community forum support via RooCode\n\nTailored for:\n- Individual developers and hobbyists building with RooCode\n- Solo projects, prototypes, and experimentation without commitment\n\nTokens per month: 500,000,000\n\nReset Options:\n– Light Reset (25%): 125,000,000 tokens for $19.69\n– Half Reset (50%): 250,000,000 tokens for $39.38\n– Boost Reset (75%): 375,000,000 tokens for $59.06\n– Full Reset (100%): 500,000,000 tokens for $78.75",
+    "price": 78.75,
+    "type": "dev",
+    "subscription_days": 30,
+    "created_at": "2025-07-01 00:00:00",
+    "currency": "USD",
+    "discounted": false,
+    "original_price": null
+  },
+  {
+    "product_id": 4,
+    "name": "Designer Access",
+    "description": "Unlock advanced design capabilities with our Designer plan.\n\nFeatures:\n- Access to exclusive design tools and templates\n- Priority support for design-related queries\n- Integration with popular design software\n- Community forum for designers\n\nTailored for:\n- Graphic designers and UI/UX professionals\n- Creative agencies and design studios\n- Individuals focused on visual content creation\n\nTokens per month: 500,000\n\nReset Options:\n– Light Reset (25%): 125,000 tokens\n– Half Reset (50%): 250,000 tokens\n– Boost Reset (75%): 375,000 tokens\n– Full Reset (100%): 500,000 tokens",
+    "price": null,
+    "type": "design-30",
+    "subscription_days": 30,
+    "created_at": "2025-07-04 12:14:00",
+    "currency": null,
+    "discounted": false,
+    "original_price": null
+  },
+  {
+    "product_id": 5,
+    "name": "Advance Access",
+    "description": "Unlock unlimited API access with our Advance plan.\n\nFeatures:\n- Unlimited API calls for full flexibility\n- Priority support during business hours\n- Access to advanced API endpoints\n- Integration with Discord developer community\n\nTailored for:\n- Growing projects ready for production\n- Freelancers & small teams needing reliability\n- Use-cases demanding sustained API usage\n\nTokens per month: 1,000,000\n\nReset Options:\n– Light Reset (25%): 250,000 tokens\n– Half Reset (50%): 500,000 tokens\n– Boost Reset (75%): 750,000 tokens\n– Full Reset (100%): 1,000,000 tokens",
+    "price": null,
+    "type": "advance",
+    "subscription_days": 30,
+    "created_at": "2025-06-02 22:33:22",
+    "currency": null,
+    "discounted": false,
+    "original_price": null
+  },
+  {
+    "product_id": 6,
+    "name": "Enterprise Access",
+    "description": "Enterprise-grade unlimited API access for mission-critical applications.\n\nFeatures:\n- Unlimited API calls with high throughput\n- SLA-backed support & uptime guarantees\n- Dedicated account manager\n- Enhanced security compliance controls\n- Full access to advanced and internal-only API routes\n\nTailored for:\n- Large businesses & enterprise teams\n- Applications in production with scale requirements\n- Organizations needing compliance, reliability, and support\n\nTokens per month: 1,500,000\n\nReset Options:\n– Light Reset (25%): 375,000 tokens\n– Half Reset (50%): 750,000 tokens\n– Boost Reset (75%): 1,125,000 tokens\n– Full Reset (100%): 1,500,000 tokens",
+    "price": null,
+    "type": "enterprise",
+    "subscription_days": 30,
+    "created_at": "2025-06-02 22:33:22",
+    "currency": null,
+    "discounted": false,
+    "original_price": null
+  },
+  {
+    "product_id": 7,
+    "name": "Partner Access",
+    "description": "Strategic unlimited API access & co‑development partnership.\n\nFeatures:\n- Unlimited API calls and full platform access\n- Joint go-to-market collaboration\n- Co‑branding & marketing support\n- Technical integration planning & priority engineering access\n- Executive liaison and roadmap influence\n\nTailored for:\n- Official partners & resellers\n- Software vendors building deep integrations\n- Channels requiring custom support and partnership alignment\n\nTokens per month: 2,000,000\n\nReset Options:\n– Light Reset (25%): 500,000 tokens\n– Half Reset (50%): 1,000,000 tokens\n– Boost Reset (75%): 1,500,000 tokens\n– Full Reset (100%): 2,000,000 tokens",
+    "price": null,
+    "type": "partner",
+    "subscription_days": 30,
+    "created_at": "2025-06-02 22:33:22",
+    "currency": null,
+    "discounted": false,
+    "original_price": null
+  },
+  {
+    "product_id": 8,
+    "name": "All Access",
+    "description": "Comprehensive access to all Bytarch AI/Bytarch LLC platforms, including Genie, Sky, Genie Extension, and Genie Suite.\n\nTokens per month: 200,000,000\n\nReset Options:\n– Light Reset (25%): 50,000,000 tokens\n– Half Reset (50%): 100,000,000 tokens\n– Boost Reset (75%): 150,000,000 tokens\n– Full Reset (100%): 200,000,000 tokens",
+    "price": null,
+    "type": "all-30",
+    "subscription_days": 30,
+    "created_at": "2025-07-04 12:14:00",
+    "currency": null,
+    "discounted": false,
+    "original_price": null
   }
 ]
