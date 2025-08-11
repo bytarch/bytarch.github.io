@@ -63,7 +63,7 @@
   "description": "Perfect for developers who want flexible pay-as-you-go access via RooCode's API.\n\nFeatures:\n- Pay only for tokens used with no monthly commitment\n- Full access via RooCode's API integration\n- Support for site features like context condensing and custom instructions through RooCode\n- Community forum support\n\nIdeal for:\n- Individual developers and hobbyists\n- Projects with variable or unpredictable token usage\n\nPricing:\n- $0.0001575 per token (e.g., 1,000 tokens = $0.16)\n\nNo fixed token quotas or reset options apply.",
   "price": null,
   "type": "dev",
-  "subscription_days": null,
+  "subscription_days": 30,
   "created_at": "2025-07-01 00:00:00",
   "currency": "USD",
   "discounted": false,
