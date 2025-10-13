@@ -7,7 +7,8 @@
     "type": "Free",
     "subscription_days": null,
     "created_at": "2025-02-20 15:11:39",
-    "link": "https://free.genieaibz.dpdns.org/"
+    "link": "https://genieaibz.netlify.app/c?model=free",
+    "original_price": null
   },
   {
     "product_id": 1,
@@ -18,32 +19,32 @@
     "subscription_days": 7,
     "created_at": "2025-06-02 22:33:22",
     "currency": "BZD",
-    "discounted": true,
-    "original_price": 4.99
+    "discounted": false,
+    "original_price": null
   },
   {
     "product_id": 2,
     "name": "Monthly Access",
     "description": "Unlock premium AI capabilities with a monthly subscription.\n\nFeatures:\n- 30 days of comprehensive, unrestricted access\n- Full access to the Deminji Suite with advanced tools\n- All AI models unlocked for complete mastery\n- Advanced video summarization for enhanced productivity\n- Integration with our exclusive Discord community\n- 24/7 premium support for continuous assistance\n\nTailored for:\n- Long-term research projects\n- Academic scholars & researchers\n- Continuous learning environments & innovation\n- Professionals seeking maximum flexibility and AI expertise\n\nTokens per month: 700,000\n\nReset Options:\n– Light Reset (25%): 175,000 tokens for $3.75\n– Half Reset (50%): 350,000 tokens for $7.50\n– Boost Reset (75%): 525,000 tokens for $11.25\n– Full Reset (100%): 700,000 tokens for $14.99",
-    "price": 11.00,
+    "price": 10.00,
     "type": "sub-30",
     "subscription_days": 30,
     "created_at": "2025-06-02 22:33:22",
     "currency": "BZD",
-    "discounted": true,
-    "original_price": 14.99
+    "discounted": false,
+    "original_price": null
   },
   {
     "product_id": 9,
     "name": "Sky Monthly",
     "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform.\n\nTokens per month: 900,000\n\nReset Options:\n– Light Reset (25%): 225,000 tokens for $5.75\n– Half Reset (50%): 450,000 tokens for $11.50\n– Boost Reset (75%): 675,000 tokens for $17.25\n– Full Reset (100%): 900,000 tokens for $22.99",
-    "price": 18.00,
+    "price": 14.00,
     "type": "sky-30",
     "subscription_days": 30,
     "created_at": "2025-07-04 12:14:00",
     "currency": "BZD",
-    "discounted": true,
-    "original_price": 22.99
+    "discounted": false,
+    "original_price": null
   },
   {
     "product_id": 10,
@@ -54,11 +55,9 @@
     "subscription_days": 7,
     "created_at": "2025-07-06 10:18:00",
     "currency": "BZD",
-    "discounted": true,
-    "original_price": 7.99
+    "discounted": false,
+    "original_price": null
   },
-
-
   {
     "product_id": 4,
     "name": "Designer Access",
