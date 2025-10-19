@@ -35,30 +35,6 @@
     "original_price": null
   },
   {
-    "product_id": 9,
-    "name": "Sky Monthly",
-    "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform.\n\nTokens per month: 900,000\n\nReset Options:\n– Light Reset (25%): 225,000 tokens for $5.75\n– Half Reset (50%): 450,000 tokens for $11.50\n– Boost Reset (75%): 675,000 tokens for $17.25\n– Full Reset (100%): 900,000 tokens for $22.99",
-    "price": 14.00,
-    "type": "sky-30",
-    "subscription_days": 30,
-    "created_at": "2025-07-04 12:14:00",
-    "currency": "BZD",
-    "discounted": false,
-    "original_price": null
-  },
-  {
-    "product_id": 10,
-    "name": "Sky Weekly",
-    "description": "Premium access with dedicated support, offering real-time AI assistance for comprehensive screen and audio analysis, exclusively for the Sky Platform, for 7 days.\n\nTokens per month: 90,000\n\nReset Options:\n– Light Reset (25%): 22,500 tokens for $2.00\n– Half Reset (50%): 45,000 tokens for $4.00\n– Boost Reset (75%): 67,500 tokens for $6.00\n– Full Reset (100%): 90,000 tokens for $7.99",
-    "price": 5.50,
-    "type": "sky-7",
-    "subscription_days": 7,
-    "created_at": "2025-07-06 10:18:00",
-    "currency": "BZD",
-    "discounted": false,
-    "original_price": null
-  },
-  {
     "product_id": 4,
     "name": "Designer Access",
     "description": "Unlock advanced design capabilities with our Designer plan.\n\nFeatures:\n- Access to exclusive design tools and templates\n- Priority support for design-related queries\n- Integration with popular design software\n- Community forum for designers\n\nTailored for:\n- Graphic designers and UI/UX professionals\n- Creative agencies and design studios\n- Individuals focused on visual content creation\n\nTokens per month: 500,000\n\nReset Options:\n– Light Reset (25%): 125,000 tokens\n– Half Reset (50%): 250,000 tokens\n– Boost Reset (75%): 375,000 tokens\n– Full Reset (100%): 500,000 tokens",
