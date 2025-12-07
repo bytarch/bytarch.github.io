@@ -14,24 +14,24 @@
     "product_id": 1,
     "name": "7-Day Trial",
     "description": "Experience the full capabilities of our AI platform with a 7-day trial.\n\nFeatures:\n- Complete access to the Deminji Suite\n- All AI models unlocked\n- Unlimited video summarization\n- Integration with our exclusive Discord community\n- 24/7 support for immediate assistance\n\nIdeal for:\n- New AI enthusiasts\n- Short-term research projects\n- Exploring our AI platform\n- Testing our comprehensive tools",
-    "price": 2.00,
+    "price": 2.99,
     "type": "7-days",
     "subscription_days": 7,
     "created_at": "2025-06-02 22:33:22",
     "currency": "BZD",
-    "discounted": true,
+    "discounted": false,
     "original_price": 2.99
   },
   {
     "product_id": 2,
     "name": "Monthly Access",
     "description": "Unlock premium AI capabilities with a monthly subscription.\n\nFeatures:\n- 30 days of comprehensive, unrestricted access\n- Full access to the Deminji Suite with advanced tools\n- All AI models unlocked for complete mastery\n- Advanced video summarization for enhanced productivity\n- Integration with our exclusive Discord community\n- 24/7 premium support for continuous assistance\n\nTailored for:\n- Long-term research projects\n- Academic scholars & researchers\n- Continuous learning environments & innovation\n- Professionals seeking maximum flexibility and AI expertise",
-    "price": 8.50,
+    "price": 10.00,
     "type": "sub-30",
     "subscription_days": 30,
     "created_at": "2025-06-02 22:33:22",
     "currency": "BZD",
-    "discounted": true,
+    "discounted": false,
     "original_price": 10.00
   },
   {
