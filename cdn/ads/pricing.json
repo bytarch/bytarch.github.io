@@ -47,6 +47,18 @@
     "original_price": 25.00
   },
   {
+    "product_id": 10,
+    "name": "Coding Lite",
+    "description": "Short-term lightweight coding plan for beginners and small projects needing fast development support.\n\nFeatures:\n- Basic code generation and debugging support\n- Support for major languages (Python, JavaScript, Java)\n- Limited API and AI tool access\n- Ideal for learning and small-scale projects\n- Lower priority support queue\n\nTailored for:\n- Coding beginners and students\n- Hobby developers\n- Short-term coding tasks\n- Small scripts and lightweight apps\n\nTokens per month: 3,000,000\n\nReset Options:\n– Light Reset (25%): 750,000 tokens\n– Half Reset (50%): 1,500,000 tokens\n– Boost Reset (75%): 2,250,000 tokens\n– Full Reset (100%): 3,000,000 tokens",
+    "price": 6.99,
+    "type": "coding-lite-7",
+    "subscription_days": 7,
+    "created_at": "2026-04-12 00:00:00",
+    "currency": "BZD",
+    "discounted": false,
+    "original_price": 6.99
+  },
+  {
     "product_id": 4,
     "name": "Designer Access",
     "description": "Unlock advanced design capabilities with our Designer plan.\n\nFeatures:\n- Access to exclusive design tools and templates\n- Priority support for design-related queries\n- Integration with popular design software\n- Community forum for designers\n\nTailored for:\n- Graphic designers and UI/UX professionals\n- Creative agencies and design studios\n- Individuals focused on visual content creation\n\nTokens per month: 500,000\n\nReset Options:\n– Light Reset (25%): 125,000 tokens\n– Half Reset (50%): 250,000 tokens\n– Boost Reset (75%): 375,000 tokens\n– Full Reset (100%): 500,000 tokens",
