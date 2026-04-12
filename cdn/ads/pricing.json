@@ -7,7 +7,7 @@
     "type": "Free",
     "subscription_days": null,
     "created_at": "2025-02-20 15:11:39",
-    "link": "https://genieaibz.netlify.app/c?model=free",
+    "link": "https://bytarch.mine.bz/profile",
     "original_price": null
   },
   {
@@ -33,6 +33,18 @@
     "currency": "BZD",
     "discounted": false,
     "original_price": 10.00
+  },
+  {
+    "product_id": 9,
+    "name": "Coding Access",
+    "description": "Specialized plan for developers and software engineers focused on coding assistance and API development.\n\nFeatures:\n- Advanced code generation and debugging support\n- Multi-language programming assistance (Python, JavaScript, Java, C++, etc.)\n- Access to developer-focused AI tools and endpoints\n- Integration support for GitHub and CI/CD workflows\n- Priority support for technical queries\n\nTailored for:\n- Software developers and engineers\n- Backend and frontend development teams\n- Freelancers building software products\n- Students learning programming and computer science\n\nTokens per month: 9,000,000\n\nReset Options:\n– Light Reset (25%): 2,250,000 tokens\n– Half Reset (50%): 4,500,000 tokens\n– Boost Reset (75%): 6,750,000 tokens\n– Full Reset (100%): 9,000,000 tokens",
+    "price": 25.00,
+    "type": "coding-30",
+    "subscription_days": 30,
+    "created_at": "2026-04-12 00:00:00",
+    "currency": "BZD",
+    "discounted": false,
+    "original_price": 25.00
   },
   {
     "product_id": 4,
@@ -61,7 +73,7 @@
   {
     "product_id": 6,
     "name": "Enterprise Access",
-    "description": "Enterprise-grade unlimited API access for mission-critical applications.\n\nFeatures:\n- Unlimited API calls with high throughput\n- SLA-backed support & uptime guarantees\n- Dedicated account manager\n- Enhanced security compliance controls\n- Full access to advanced and internal-only API routes\n\nTailored for:\n- Large businesses & enterprise teams\n- Applications in production with scale requirements\n- Organizations needing compliance, reliability, and support\n\nTokens per month: 1,500,000\n\nReset Options:\n– Light Reset (25%): 375,000 tokens\n– Half Reset (50%): 750,000 tokens\n– Boost Reset (75%): 1,125,000 tokens\n– Full Reset (100%): 1,500,000 tokens",
+    "description": "Enterprise-grade unlimited API access for mission-critical applications.\n\nFeatures:\n- Unlimited API calls with high throughput\n- SLA-backed support & uptime guarantees\n- Dedicated account manager\n- Enhanced security compliance controls\n- Full access to advanced and internal-only API routes\n\nTailored for:\n- Large businesses & enterprise teams\n- Applications in production with scale requirements\n- Organizations needing compliance, reliability, and support\n\nTokens per month: 1,500,000",
     "price": null,
     "type": "enterprise",
     "subscription_days": 30,
@@ -73,7 +85,7 @@
   {
     "product_id": 7,
     "name": "Partner Access",
-    "description": "Strategic unlimited API access & co‑development partnership.\n\nFeatures:\n- Unlimited API calls and full platform access\n- Joint go-to-market collaboration\n- Co‑branding & marketing support\n- Technical integration planning & priority engineering access\n- Executive liaison and roadmap influence\n\nTailored for:\n- Official partners & resellers\n- Software vendors building deep integrations\n- Channels requiring custom support and partnership alignment\n\nTokens per month: 2,000,000\n\nReset Options:\n– Light Reset (25%): 500,000 tokens\n– Half Reset (50%): 1,000,000 tokens\n– Boost Reset (75%): 1,500,000 tokens\n– Full Reset (100%): 2,000,000 tokens",
+    "description": "Strategic unlimited API access & co-development partnership.\n\nFeatures:\n- Unlimited API calls and full platform access\n- Joint go-to-market collaboration\n- Co-branding & marketing support\n- Technical integration planning & priority engineering access\n- Executive liaison and roadmap influence\n\nTailored for:\n- Official partners & resellers\n- Software vendors building deep integrations\n- Channels requiring custom support and partnership alignment\n\nTokens per month: 2,000,000",
     "price": null,
     "type": "partner",
     "subscription_days": 30,
@@ -85,7 +97,7 @@
   {
     "product_id": 8,
     "name": "All Access",
-    "description": "Comprehensive access to all Bytarch AI/Bytarch LLC platforms, including Genie, Sky, Genie Extension, and Genie Suite.\n\nTokens per month: 200,000,000\n\nReset Options:\n– Light Reset (25%): 50,000,000 tokens\n– Half Reset (50%): 100,000,000 tokens\n– Boost Reset (75%): 150,000,000 tokens\n– Full Reset (100%): 200,000,000 tokens",
+    "description": "Comprehensive access to all Bytarch AI/Bytarch LLC platforms, including Genie, Sky, Genie Extension, and Genie Suite.\n\nTokens per month: 200,000,000",
     "price": null,
     "type": "all-30",
     "subscription_days": 30,
