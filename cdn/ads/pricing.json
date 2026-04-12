@@ -38,7 +38,7 @@
     "product_id": 9,
     "name": "Coding Access",
     "description": "Specialized plan for developers and software engineers focused on coding assistance and API development.\n\nFeatures:\n- Advanced code generation and debugging support\n- Multi-language programming assistance (Python, JavaScript, Java, C++, etc.)\n- Access to developer-focused AI tools and endpoints\n- Integration support for GitHub and CI/CD workflows\n- Priority support for technical queries\n\nTailored for:\n- Software developers and engineers\n- Backend and frontend development teams\n- Freelancers building software products\n- Students learning programming and computer science\n\nTokens per month: 9,000,000\n\nReset Options:\n– Light Reset (25%): 2,250,000 tokens\n– Half Reset (50%): 4,500,000 tokens\n– Boost Reset (75%): 6,750,000 tokens\n– Full Reset (100%): 9,000,000 tokens",
-    "price": 25.00,
+    "price": 30.00,
     "type": "coding-30",
     "subscription_days": 30,
     "created_at": "2026-04-12 00:00:00",
