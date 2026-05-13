@@ -62,13 +62,13 @@
     "product_id": 5,
     "name": "Advance Access",
     "description": "Unlock unlimited API access with our Advance plan.\n\nFeatures:\n- Unlimited API calls for full flexibility\n- Priority support during business hours\n- Access to advanced API endpoints\n- Integration with Discord developer community\n\nTailored for:\n- Growing projects ready for production\n- Freelancers & small teams needing reliability\n- Use-cases demanding sustained API usage\n\nTokens per month: 1,000,000\n\nReset Options:\n– Light Reset (25%): 250,000 tokens\n– Half Reset (50%): 500,000 tokens\n– Boost Reset (75%): 750,000 tokens\n– Full Reset (100%): 1,000,000 tokens",
-    "price": "16.67",
+    "price": 16.67,
     "type": "advance",
     "subscription_days": 30,
     "created_at": "2025-06-02 22:33:22",
     "currency": "BZD",
     "discounted": false,
-    "original_price": "16.67"
+    "original_price": 16.67
   },
   {
     "product_id": 6,
@@ -81,5 +81,5 @@
     "currency": null,
     "discounted": false,
     "original_price": null
-  },
+  }
 ]
